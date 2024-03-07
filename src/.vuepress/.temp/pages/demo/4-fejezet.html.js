@@ -1,4 +1,4 @@
-import comp from "C:/Users/ccica/forditas/src/.vuepress/.temp/pages/demo/4-fejezet.html.vue"
+import comp from "D:/programozas/vuepress/forditas/src/.vuepress/.temp/pages/demo/4-fejezet.html.vue"
 const data = JSON.parse("{\"path\":\"/demo/4-fejezet.html\",\"title\":\"4. fejezet\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"4. fejezet\",\"icon\":null,\"feed\":false,\"seo\":false},\"headers\":[],\"readingTime\":{\"minutes\":0.01,\"words\":4},\"filePathRelative\":\"demo/4-fejezet.md\"}")
 export { comp, data }
 
