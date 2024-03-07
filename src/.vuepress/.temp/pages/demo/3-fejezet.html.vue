@@ -425,8 +425,8 @@ reklámozáshoz.</p>
 Mind a section elem, mind a div elem lehetővé teszi a gyermekelemek csoportosítását és
 opcionálisan formázás alkalmazását egyszerre; Gyakran látni fogja, hogy a Section és a Div többékevésbé felcserélhető. A szakasz azonban szemantikai elem, amelynek célja azt sugallni, hogy minden
 tartalma ugyanarra a témára vonatkozik, míg a div egy nem szemantikai elem, amely nem hordoz
-ilyen következményt.
-A legjobb gyakorlat a szemantikai elemek, például a section elem és a article elem használata a
+ilyen következményt.</p>
+<p>A legjobb gyakorlat a szemantikai elemek, például a section elem és a article elem használata a
 weboldal bizonyos szakaszainak logikus azonosításához, és a div elem használata csak akkor, ha nincs
 megfelelő szemantikai elem</p>
 </div>
@@ -436,13 +436,15 @@ megfelelő szemantikai elem</p>
 <li>A Visual Studio Code-ban hozz létre és ments el egy új fájlt, vagy nyisd meg a használni kívánt
 meglévő fájlt.</li>
 <li>Nyisd meg a fájlt egy böngészőablakban, hogy lásd az elvégzett módosítások eredményét.</li>
-<li>A Visual Studio Code-ban kattintással helyezze a beszúrási pontot oda, ahol az első details elemet kezdeni szeretné.</li>
-<li>Írja be a <code v-pre>&lt;details&gt;</code> nyitócímkét, nyomja le kétszer az (enter) billentyűt, majd írja be a záró <code v-pre>&lt;/details&gt;</code> címkét:</li>
+<li>A Visual Studio Code-ban kattintással helyezze a beszúrási pontot oda, ahol az első details elemet
+kezdeni szeretné.</li>
+<li>Írja be a &lt;<code v-pre>details&gt;</code> nyitócímkét, nyomja le kétszer az (enter) billentyűt, majd írja be a záró <code v-pre>&lt;/details&gt;</code> címkét:</li>
 </ol>
 <div class="language-html line-numbers-mode" data-ext="html" data-title="html"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>details</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>details</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ol start="5">
-<li>Kattintson a <code v-pre>&lt;details&gt;</code> címke és a <code v-pre>&lt;/details&gt;</code> címke közé, és írja be a <code v-pre>&lt;summary&gt;</code> nyitócímkét, annak tartalmát és a záró <code v-pre>&lt;/summary&gt;</code> címkét – például:</li>
+<li>Kattintson a <code v-pre>&lt;details&gt;</code> címke és a <code v-pre>&lt;/details&gt;</code> címke közé, és írja be a <code v-pre>&lt;summary&gt;</code> nyitócímkét, annak
+tartalmát és a záró <code v-pre>&lt;/summary&gt;</code> címkét – például:</li>
 </ol>
 <div class="language-html line-numbers-mode" data-ext="html" data-title="html"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">></span></span>What is a mechanical keyboard?<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="6">
@@ -452,41 +454,40 @@ meglévő fájlt.</li>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="7">
 <li>Kattints a frissítés gombra.</li>
 </ol>
-<p><code v-pre>A)</code> A details elem megjelenik, de összecsukva, így csak az összefoglaló elem látható.</p>
-<figure><img src="@source/demo/images/3-fejezet/62.oldal.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<ol start="8">
-<li>Kattints a Visual Studio Code ablakra és írd be a nyitó <section> elemet, ezúttal tartalmazza a style
-attribútumot és megadja a borderstyle:dahed:</li>
+<p><code v-pre>A)</code> A details elem megjelenik, de összecsukva, így csak az összefoglaló elem látható.
+8. Kattints a bővítés gombra. (a → átvált ↓-ra)</p>
+<figure><img src="@source/demo/images/3-fejezet/64.oldal.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p><code v-pre>B)</code> A details elem kinyílik, láthatóvá válik a tartalma.</p>
+<p><code v-pre>C)</code> Kattints a bezárás gombra (a ↓ átvált →-ra) ha el szeretnéd tüntetni a details elemet.
+9. Kattins a details elem után a Visual Studio Code-ban, majd írj egy új details elemet, amely
+tartalmazza a summary elemet. Például:</p>
+<div class="language-html line-numbers-mode" data-ext="html" data-title="html"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>details</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">></span></span>What advantagesdo mechanical keyboards offer?<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Mechanical keyboards feel better to type on and enable some people to type faster.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>details</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="10">
+<li>Kattintson a <code v-pre>&lt;/details&gt;</code> második details elem záró címkéje elé (nem látható).</li>
+<li>Írj egy beágyazott details elemet. Add meg style attribútomként a margin-left:20px értéket, mint
+ebben a példában:.</li>
 </ol>
-<section style="border-style:dashed">
-9. Írd be a második rész tartalmát. A példa egy h2 elemet valamint egy p elemet is tartalmaz:
-<h2>Review Considerations</h2>
-<p>This review is intended for
-general users, not for gamers
-specifically.</p>
-10. Írja be a záró </section> tag-et: </section>
-11. Kattints a frissítés gombra.
-B) A szakasz tartalma szaggatott vonallal jelenik meg.
-12. Kattintson a záró </section> címke elé, és írja be a <section> alszakasz nyitócímkéjét, beleértve a
-style attribútumot és a backgroundcolor:lightyellow megadását:
-<section style="background color: lightyellow>"
-13. Irj le egy h3 és egy p elemet. Például:
-<h3>Switch Type/h3>
-<p>The review keyboard uses blue
-(clicky) key switches.</p>
-14. Írja be az `</section>` alszakasz záró címkéjét:
-</section>
-15. Kattints a frissítés gombra.
-`C)` Az alszakasz megjelenik az oldalon.
-Tipp
-Mi a különbség a section elem és a div elem között?
-Mind a section elem, mind a div elem lehetővé teszi a gyermekelemek csoportosítását és
-opcionálisan formázás alkalmazását egyszerre; Gyakran látni fogja, hogy a Section és a Div többékevésbé felcserélhető. A szakasz azonban szemantikai elem, amelynek célja azt sugallni, hogy minden
-tartalma ugyanarra a témára vonatkozik, míg a div egy nem szemantikai elem, amely nem hordoz
-ilyen következményt.
-A legjobb gyakorlat a szemantikai elemek, például a section elem és a article elem használata a
-weboldal bizonyos szakaszainak logikus azonosításához, és a div elem használata csak akkor, ha nincs
-megfelelő szemantikai elem
+<div class="language-html line-numbers-mode" data-ext="html" data-title="html"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>details</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">margin-left</span><span class="token punctuation">:</span>20px</span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">></span></span>Keyboard Feedback<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Keyboard feedback can contribute to both typing enjoyment and speed.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>details</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="@source/demo/images/3-fejezet/65.oldal.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<ol start="12">
+<li>Kattints a frissítés gombra.
+Megjelenik a frissített lap.</li>
+</ol>
+<p><code v-pre>D)</code> A külső details elemet és a beágyazott details elemet is kibonthatja.</p>
+<div class="hint-container tip">
+<p class="hint-container-title">Tipp</p>
+<p><strong>Muszáj alkalmaznom a <em>summary</em> elemet minden egyes <em>details</em> elemben?</strong></p>
+<p>Általában hasznos a summary elem beillesztése, mert lehetővé teszi a megfelelő szöveg
+megjelenítését a Részletek elem kiterjesztése nyilához () a details elem mellett. Azonban elhagyhatja
+a summary elemet anélkül, hogy hibát okozna. Ha így tesz, az HTML a Részletek alapértelmezett
+szövegét jeleníti meg a Kiterjesztés nyilához ().</p>
+</div>
 </div></template>
 
 

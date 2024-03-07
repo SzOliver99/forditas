@@ -392,6 +392,7 @@ Mind a section elem, mind a div elem lehetővé teszi a gyermekelemek csoportos�
 opcionálisan formázás alkalmazását egyszerre; Gyakran látni fogja, hogy a Section és a Div többékevésbé felcserélhető. A szakasz azonban szemantikai elem, amelynek célja azt sugallni, hogy minden
 tartalma ugyanarra a témára vonatkozik, míg a div egy nem szemantikai elem, amely nem hordoz
 ilyen következményt.
+
 A legjobb gyakorlat a szemantikai elemek, például a section elem és a article elem használata a
 weboldal bizonyos szakaszainak logikus azonosításához, és a div elem használata csak akkor, ha nincs
 megfelelő szemantikai elem
@@ -403,13 +404,15 @@ A details elem lehetővé teszi olyan tartalomszakaszok létrehozását, amelyek
 1. A Visual Studio Code-ban hozz létre és ments el egy új fájlt, vagy nyisd meg a használni kívánt
 meglévő fájlt.
 2. Nyisd meg a fájlt egy böngészőablakban, hogy lásd az elvégzett módosítások eredményét.
-3. A Visual Studio Code-ban kattintással helyezze a beszúrási pontot oda, ahol az első details elemet kezdeni szeretné.
-4. Írja be a `<details>` nyitócímkét, nyomja le kétszer az (enter) billentyűt, majd írja be a záró `</details>` címkét:
+3. A Visual Studio Code-ban kattintással helyezze a beszúrási pontot oda, ahol az első details elemet
+kezdeni szeretné.
+4. Írja be a <`details>` nyitócímkét, nyomja le kétszer az (enter) billentyűt, majd írja be a záró `</details>` címkét:
 ```html
 <details>
 </details>
 ```
-5. Kattintson a `<details>` címke és a `</details>` címke közé, és írja be a `<summary>` nyitócímkét, annak tartalmát és a záró `</summary>` címkét – például:
+5. Kattintson a `<details>` címke és a `</details>` címke közé, és írja be a `<summary>` nyitócímkét, annak
+tartalmát és a záró `</summary>` címkét – például:
 ```html
 <summary>What is a mechanical keyboard?</summary>
 ```
@@ -420,37 +423,43 @@ meglévő fájlt.
 7. Kattints a frissítés gombra.
 
 `A)` A details elem megjelenik, de összecsukva, így csak az összefoglaló elem látható.
+8. Kattints a bővítés gombra. (a → átvált ↓-ra)
 
-![](./images/3-fejezet/62.oldal.png)
+![](./images/3-fejezet/64.oldal.png)
 
-8. Kattints a Visual Studio Code ablakra és írd be a nyitó <section> elemet, ezúttal tartalmazza a style
-attribútumot és megadja a borderstyle:dahed:
-<section style="border-style:dashed">
-9. Írd be a második rész tartalmát. A példa egy h2 elemet valamint egy p elemet is tartalmaz:
-<h2>Review Considerations</h2>
-<p>This review is intended for
-general users, not for gamers
-specifically.</p>
-10. Írja be a záró </section> tag-et: </section>
-11. Kattints a frissítés gombra.
-B) A szakasz tartalma szaggatott vonallal jelenik meg.
-12. Kattintson a záró </section> címke elé, és írja be a <section> alszakasz nyitócímkéjét, beleértve a
-style attribútumot és a backgroundcolor:lightyellow megadását:
-<section style="background color: lightyellow>"
-13. Irj le egy h3 és egy p elemet. Például:
-<h3>Switch Type/h3>
-<p>The review keyboard uses blue
-(clicky) key switches.</p>
-14. Írja be az `</section>` alszakasz záró címkéjét:
-</section>
-15. Kattints a frissítés gombra.
-`C)` Az alszakasz megjelenik az oldalon.
-Tipp
-Mi a különbség a section elem és a div elem között?
-Mind a section elem, mind a div elem lehetővé teszi a gyermekelemek csoportosítását és
-opcionálisan formázás alkalmazását egyszerre; Gyakran látni fogja, hogy a Section és a Div többékevésbé felcserélhető. A szakasz azonban szemantikai elem, amelynek célja azt sugallni, hogy minden
-tartalma ugyanarra a témára vonatkozik, míg a div egy nem szemantikai elem, amely nem hordoz
-ilyen következményt.
-A legjobb gyakorlat a szemantikai elemek, például a section elem és a article elem használata a
-weboldal bizonyos szakaszainak logikus azonosításához, és a div elem használata csak akkor, ha nincs
-megfelelő szemantikai elem
+`B)` A details elem kinyílik, láthatóvá válik a tartalma.
+
+`C)` Kattints a bezárás gombra (a ↓ átvált →-ra) ha el szeretnéd tüntetni a details elemet.
+9. Kattins a details elem után a Visual Studio Code-ban, majd írj egy új details elemet, amely
+tartalmazza a summary elemet. Például:
+```html
+<details>
+    <summary>What advantagesdo mechanical keyboards offer?</summary>
+    <p>Mechanical keyboards feel better to type on and enable some people to type faster.</p>
+</details>
+```
+10. Kattintson a `</details>` második details elem záró címkéje elé (nem látható).
+11. Írj egy beágyazott details elemet. Add meg style attribútomként a margin-left:20px értéket, mint
+ebben a példában:.
+```html
+<details style="margin-left:20px">
+    <summary>Keyboard Feedback</summary>
+    <p>Keyboard feedback can contribute to both typing enjoyment and speed.</p>
+</details>
+```
+
+![](./images/3-fejezet/65.oldal.png)
+
+12. Kattints a frissítés gombra.
+Megjelenik a frissített lap.
+
+`D)` A külső details elemet és a beágyazott details elemet is kibonthatja.
+
+::: tip Tipp
+**Muszáj alkalmaznom a *summary* elemet minden egyes *details* elemben?**
+
+Általában hasznos a summary elem beillesztése, mert lehetővé teszi a megfelelő szöveg
+megjelenítését a Részletek elem kiterjesztése nyilához () a details elem mellett. Azonban elhagyhatja
+a summary elemet anélkül, hogy hibát okozna. Ha így tesz, az HTML a Részletek alapértelmezett
+szövegét jeleníti meg a Kiterjesztés nyilához ().
+:::
