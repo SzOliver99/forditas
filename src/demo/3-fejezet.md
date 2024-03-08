@@ -42,13 +42,11 @@ A HTML span és div elemei lehetővé teszik, hogy csak annyi szöveget adjon me
 ### Elemek kiválasztása span és div elemekkel
 **Szöveg kiválasztása a span elemmel**
 
+::: note Megjegyzés: 
+A szakasz végigdolgozásához a következőkre van lehetőség: kikapcsolhatja a Visual Studio Code HTML Auto Záró címkék funkciót ideiglenesen. 
 
-
-Megjegyzés: A szakasz végigdolgozásához a következőkre van lehetőség:
-kikapcsolhatja a Visual Studio Code HTML Auto
-Záró címkék funkciót ideiglenesen. Lásd az első tippet.
-
-
+Lásd az első tippet.
+:::
 
 1. A Visual Studio Code-ban nyissa meg a fájlt, amelyet
 használni kíván.
@@ -58,9 +56,9 @@ használni kíván.
 3. A Visual Studio Code-ban kattintson oda ahol el akarja kezdeni a tartományt.
 
 4. Írja be a nyitó `<span>` taget, beleértve a stílusattribútumot és a formázást a piros színt alkalmazva a szövegre:
-```html
-<span style="color:red">
-```
+    ```html
+    <span style="color:red">
+    ```
 
 5. Írja be a span szöveges tartalmát.
 
@@ -69,56 +67,49 @@ A spanban lévő szöveg felhasználásához kattintson a szöveg végére.
 :::
 
 6. Írja be a záró `</span>` taget:
-```html
-</span>
-```
+    ```html
+    </span>
+    ```
 
 7. Írjon be bármilyen szöveget, amely a span element után következik - például a maradék bekezdést.
 
-8. Kattintson a frissítésre
+8. Kattintson a frissítésre \
+    A böngésző megjeleníti a frissített weboldalt. 
 
-A böngésző megjeleníti a frissített weboldalt. 
-
-`A)` A span elem szövege piros színnel jelenik meg
+    `A)` A span elem szövege piros színnel jelenik meg
 
 ![](./images/3-fejezet/54.oldal.png)
 
-Szöveg kiválasztása a div elemmel
+### Szöveg kiválasztása a div elemmel
 1. Kattintson arra a helyre, ahol a div elemet szeretné elkezdeni.
 
-
 2. Írja be a nyitó `<div>` taget, beleértve a stílus attribútumot és a jobbra igazítást alkalmazó formázást is a szöveghez:
-```html
-<div style="text-align:right">
-```
+    ```html
+    <div style="text-align:right">
+    ```
 
 3. Nyomja meg kétszer az "Enter" billentyűt, majd írja be a befejező
-```html
-</div> taget:
-</div>
-```
+    ```html
+    </div> taget:
+    </div>
+    ```
 
 4. Kattintson a gombra a beszúrási pont üres sorba helyezéséhez.
 
 5. Írjon be egy h2 elemet és egy vagy több p elemet, például:
-```html
-<h2>Teljes méretű billentyűzetek</h2>
-<p>A teljes méretű billentyűzetek általában
-körülbelül 17 hüvelyk szélesek.</p>
-```
+    ```html
+    <h2>Teljes méretű billentyűzetek</h2>
+    <p>A teljes méretű billentyűzetek általában körülbelül 17 hüvelyk szélesek.</p>
+    ```
 
+6. Kattintson a záró `</div>` kód után, nyomja meg a, majd írjon be egy másik p elemet - például: `<p>`A teljes méretű billentyűzetek általában 104 és 108 gombot tartalmaznak.`</p>`
 
+7. Kattintson a Frissítés gombra \
+    A böngésző megjeleníti a frissített weboldalt.
 
-6. Kattintson a záró `</div>` kód után, nyomja meg a ,
-majd írjon be egy másik p elemet - például:
-`<p>`A teljes méretű billentyűzetek általában 104 és 108 gombot tartalmaznak.`</p>`
+    `B)` A div elemben lévő szöveg jobbra van igazítva.
 
-7. Kattintson a Frissítés gombra
-A böngésző megjeleníti a frissített weboldalt.
-
-`B)` A div elemben lévő szöveg jobbra van igazítva.
-
-`C)` A div elem utáni szöveg balra áll vissza, az alapértelmezetthez.
+    `C)` A div elem utáni szöveg balra áll vissza, az alapértelmezetthez.
 
 ![](./images/3-fejezet/55.oldal.png)
 
@@ -159,43 +150,42 @@ A fejléc elem segítségével fejlécet hozhat létre egy weboldalhoz. A fejlé
 <p>Tanulja meg az alapvető tudnivalókat a következőkről a számítógépek különböző méreteiről billentyűzetek különböző típusairól.</p>
 ```
 
-8. Kattintson a Frissítés ( ) gombra.
+8. Kattintson a Frissítés ( ) gombra. \
+    A böngésző megjeleníti a frissített oldalt.
 
-A böngésző megjeleníti a frissített oldalt.
-
-`A)` A fejléc pontozott kerettel jelenik meg.
+    `A)` A fejléc pontozott kerettel jelenik meg.
 
 ![](./images/3-fejezet/56.oldal.png)
 
 9. Kattintson arra a helyre, ahol a láblécet szeretné kezdeni.
 
 10. Írja be a nyitó `<footer>` taget, beleértve a stílusattribútumot, hogy először rendelje a background-color tulajdonsághoz a színt, majd a border-style tulajdonságot a solid típusú szolid tulajdonsággal:
-```html
-<footer style="background-color:aqua; border-style:solid">
-```
+    ```html
+    <footer style="background-color:aqua; border-style:solid">
+    ```
+
 ::: note Megjegyzés:
 A két tulajdonságot különítsük el egy pontosvesszővel.
 :::
 
 11. Írjon szöveget a lábléc elemhez, például:
-```html
-<p>Copyright &copy; 2023 M.Jones Productions</p>
-```
+    ```html
+    <p>Copyright &copy; 2023 M.Jones Productions</p>
+    ```
+
 ::: note Megjegyzés:
 A © a HTML-kód a copyright szimbólum, &copy;. Lásd a "A HTML entitáskódok megértése" című fejezetben található további információkért.
 :::
 
-
 12. Írja be a záró `</footer>` taget:
-```html
-</footer>
-```
+    ```html
+    </footer>
+    ```
 
-13. Kattintson a Frissítés ( ) gombra.
+13. Kattintson a Frissítés ( ) gombra. \
+    `A)` A böngésző megjeleníti a frissített oldalt.
 
-`A)` A böngésző megjeleníti a frissített oldalt.
-
-`B)` A lábléc egyszínű szegéllyel jelenik meg és vízszínű háttérrel.
+    `B)` A lábléc egyszínű szegéllyel jelenik meg és vízszínű háttérrel.
 
 ![](./images/3-fejezet/57.oldal.png)
 
@@ -211,69 +201,76 @@ bemutatására. Egy cikk bármilyen hosszúságú és bonyolultságú lehet, ame
 lefedettség megkíván. A példa cikkek ebben a részben nagyon rövidek a könyvoldal korlátai miatt.
 
 ### Cikk elemek hozzáadása az oldalhoz:
-1. A Visual Studio Code-ban hozzon létre és mentsen el egy új fájlt, vagy nyissa meg a már meglévő
-fájlt, amelyet szeretne használni.
+1. A Visual Studio Code-ban hozzon létre és mentsen el egy új fájlt, vagy nyissa meg a már meglévő fájlt, amelyet szeretne használni.
+
 2. Nyissa meg a fájlt egy böngészőablakban, hogy láthassa a változások eredményeit.
+
 3. A Visual Studio Code-ban kattintson oda, ahol el szeretné helyezni az első cikk elemet.
-4. Írja be az `<article>` nyitó címke kódot, beleértve a style attribútumot a border-style: dotted
-értékkel, hogy az elem terjedelme könnyen látható legyen.
-```html
-<article style="border-style: dotted">
-```
+
+4. Írja be az `<article>` nyitó címke kódot, beleértve a style attribútumot a border-style: dotted értékkel, hogy az elem terjedelme könnyen látható legyen.
+    ```html
+    <article style="border-style: dotted">
+    ```
+
 5. Írja be a cikk tartalmát, például:
-```html
-<h2>clicky Switches</h2>
-<p>clicky switches give audible clicks each time you press them down.</p>
-```
+    ```html
+    <h2>clicky Switches</h2>
+    <p>clicky switches give audible clicks each time you press them down.</p>
+    ```
+
 6. Írja be a záró `</article>` címkét:
-```html
-</article>
-```
-7. Kattintson a Frissítésre (C).
-`A)` böngésző frissíti az oldalt, és a cikk megjelenik pontozott kerettel.
+    ```html
+    </article>
+    ```
+
+7. Kattintson a Frissítésre (C). \
+    `A)` böngésző frissíti az oldalt, és a cikk megjelenik pontozott kerettel.
 
 ![](./images/3-fejezet/58.oldal.png)
 
 8. Nyomja meg az Enter billentyűt, majd írja be a nyitó `<article>` címkét egy másik cikkhez, ismét
 kijelölve a pontozott keretet:
-```html
-<article style="border-style: dotted">
-```
+    ```html
+    <article style="border-style: dotted">
+    ```
+
 9. Írja be a cikk tartalmát - például:
-```html
-<h2>Tapintási kapcsolók</h2>
-<p>A tapintási kapcsolók érzékelhető dudort adnak, de nincs kattanás, amikor lenyomják őket.</p>
-```
+    ```html
+    <h2>Tapintási kapcsolók</h2>
+    <p>A tapintási kapcsolók érzékelhető dudort adnak, de nincs kattanás, amikor lenyomják őket.</p>
+    ```
+
 10. Írja be a záró `</article>` címkét:
-```html
-</article>
-```
-11. Kattintson az Frissítésre (C).
-A második cikk megjelenik.
-12. Ismételje meg a 8-10. lépéseket egy harmadik cikk hozzáadásához -
-például:
-```html
-<article style="border-style: dotted">
-<h2>Liner kapcsolók</h2>
-<p>A lineáris kapcsolók nem adnak ki hallható kattanást vagy érzékelhető dudort, amikor lenyomják.</p>
-</article>
-```
+    ```html
+    </article>
+    ```
+
+11. Kattintson az Frissítésre (C). \
+    A második cikk megjelenik.
+12. Ismételje meg a 8-10. lépéseket egy harmadik cikk hozzáadásához - például:
+    ```html
+    <article style="border-style: dotted">
+        <h2>Liner kapcsolók</h2>
+        <p>A lineáris kapcsolók nem adnak ki hallható kattanást vagy érzékelhető dudort, amikor lenyomják.</p>
+    </article>
+    ```
+
 13. Írjon megjegyzést arról, hogy szükséges egy másik cikket hozzáadni:
-```html
-<!-- optikai kapcsolók hozzáadása -->
-```
+    ```html
+    <!-- optikai kapcsolók hozzáadása -->
+    ```
+
 14. Írjon egy bekezdést - például:
+    ```html
+    <p>Az oldal többi része részletesen ismerteti ezeket a típusokat.</p>
+    ```
 
 ![](./images/3-fejezet/59.oldal.png)
 
-```html
-<p>Az oldal többi része részletesen ismerteti ezeket a típusokat.</p>
-```
-15. Kattintson az Frissítésre (C).
+15. Kattintson az Frissítésre (C). \
+    `C)` A harmadik cikk megjelenik.
 
-`C)` A harmadik cikk megjelenik.
-
-`D)` A bekezdés a harmadik cikk után következik.
+    `D)` A bekezdés a harmadik cikk után következik.
 
 ::: tip Tipp
 **Hogyan állíthatom meg, hogy a keret érintse meg a cikk szöveteit?**
@@ -285,43 +282,45 @@ A cikk elemre padding-ot alkalmazhat, hogy némi helyet teremtsen a keret és az
 Az HTML szemantikus elemei közé tartozik az aside elem, amelyet arra használhat, hogy elválassza a tartalmat a körülötte lévő tartalomtól. Az aside elem hasznos lehetőség lehet a weboldal egy részének kiemelésére vagy az olvasó figyelmének felhívására az aside elem elhelyezkedésében. Az aside elemnek nincs konkrét pozíciója, de a style attribútumot használhatja az aside elem pozícionálásához és formázásához, szükség szerint, hogy illeszkedjen a weboldalához.
 
 ### Készítsen kiemelt idézeteket az aside elemmel:
-1. A Visual Studio Code-ban hozzon létre és mentse el az új fájlt, vagy nyissa meg a meglévő fájlt,
-amelyet használni szeretne.
+1. A Visual Studio Code-ban hozzon létre és mentse el az új fájlt, vagy nyissa meg a meglévő fájlt, amelyet használni szeretne.
+
 2. Nyissa meg a fájlt egy böngészőablakban, hogy lássa a változtatások eredményeit.
+
 3. A Visual Studio Code-ban kattintson arra a helyre, ahol el szeretné helyezni az aside elemet.
+
 4. Írja be az `<aside>` nyitó címkét:
-```html
-<aside>
-```
-5. Írja be a aside elemen megjeleníteni kívánt tartalmat - például:
-Szánjon időt arra, hogy megismerje a különböző billentyűkapcsoló típusokat.
+    ```html
+    <aside>
+    ```
+5. Írja be a aside elemen megjeleníteni kívánt tartalmat - például: Szánjon időt arra, hogy megismerje a különböző billentyűkapcsoló típusokat.
+
 6. Írja be a `</aside>` záró címkét:
-```html
-</aside>
-```
-7. Kattintson a Frissítésre (C).
+    ```html
+    </aside>
+    ```
 
-`A)` Az aside elem megjelenik az oldalon.
+7. Kattintson a Frissítésre (C). \
+    `A)` Az aside elem megjelenik az oldalon.
 
-Mivel nem adott meg stílusformázást, az aside elem úgy jelenik meg, mint a többi bekezdés.
+    Mivel nem adott meg stílusformázást, az aside elem úgy jelenik meg, mint a többi bekezdés.
 
 ![](./images/3-fejezet/60.oldal.png)
 
 8. Kattintson az `<aside>` nyitó címke záró > jele előtt, és gépelje be a style attribútumot, megadva a width:33% és float: right értékeket, így a címke így néz ki:
-```html
-<aside style="width:33%; float:right">
-```
-9. Kattintson a Frissítésre (C).
+    ```html
+    <aside style="width:33%; float:right">
+    ```
 
-`B)` Az aside elem megjelenik az oldal harmadánál és jobbra lebeg.
-10. Kattintson a float: right után, a dupla idézőjel elött, és folytassa a style attribútum formázását,
-hozzáadva a background-color:lightskyblue és a padding:10px értékeket. A teljes címke így néz ki:
-```html
-<aside style="width:33%; float: right; background-color: lightskyblue; padding:10px">
-```
-11. Kattintson a Frissítésre (C).
+9. Kattintson a Frissítésre (C). \
+    `B)` Az aside elem megjelenik az oldal harmadánál és jobbra lebeg.
 
-`C)` Az aside elem egy világoskék háttért kap és minden oldalon 10 pixel paddinget.
+10. Kattintson a float: right után, a dupla idézőjel elött, és folytassa a style attribútum formázását, hozzáadva a background-color:lightskyblue és a padding:10px értékeket. A teljes címke így néz ki:
+    ```html
+    <aside style="width:33%; float: right; background-color: lightskyblue; padding:10px">
+    ```
+
+11. Kattintson a Frissítésre (C). \
+    `C)` Az aside elem egy világoskék háttért kap és minden oldalon 10 pixel paddinget.
 
 ![](./images/3-fejezet/61.oldal.png)
 
@@ -336,55 +335,63 @@ reklámozáshoz.
 A HTML-ben a section elem használatával oszthatod fel a weboldalad több részre. Mivel a section egy szemantikus elem, a részekre való felosztásnak logikusnak kell lennie, de praktikus célokra is használható Például alkalmazhat formázást egy szakaszelem összes gyermekelemére egyidejűleg, ha megadja a szakaszelem formázását.
 
 1. A Visual Studio Code-ban hozzon létre és mentsen el egy új fájlt, vagy nyissa meg a meglévő fájlt, amit használni szeretne.
+
 2. Nyissa meg a fájlt egy böngészőablakban, hogy láthassa a változtatások eredményét.
+
 3. A Visual Studio Code-ban kattintson arra a helyre, ahol el szeretné kezdeni az első section elemet.
+
 4. Nyisd meg a kezdő `<section>` tag-et: `<section>`
 5. Írd be az első szakasz tartalmát. A példa tartalmaz egy h2 elemet és egy p elemet:
-```html
-<h2>Introduction</h2>
-<p>The Anne Pro 2 from Obinslab is a 60%-size mechanical keyboard with built-in wireless connectivity.</p>
-```
+    ```html
+    <h2>Introduction</h2>
+    <p>The Anne Pro 2 from Obinslab is a 60%-size mechanical keyboard with built-in wireless connectivity.</p>
+    ```
+
 6. Írd be a záró `</section>` tag-et: `</section>`
-7. Kattints a frissítés gombra.
 
-`A)` A section elem tartalma megjelenik a weboldalon. 
+7. Kattints a frissítés gombra. \
+    `A)` A section elem tartalma megjelenik a weboldalon. 
 
-Nincs látható jele hogy a section elem létezik.
+    Nincs látható jele hogy a section elem létezik.
 
 ![](./images/3-fejezet/62.oldal.png)
 
 8. Kattints a Visual Studio Code ablakra és írd be a nyitó `<section>` elemet, ezúttal tartalmazza a style attribútumot és megadja a borderstyle:dahed:
-```html
-<section style="border-style:dashed">
-```
-9. Írd be a második rész tartalmát. A példa egy h2 elemet valamint egy p elemet is tartalmaz:
-```html
-<h2>Review Considerations</h2>
-<p>This review is intended for general users, not for gamers specifically.</p>˛
-```
-10. Írja be a záró `</section>` tag-et: `</section>`
-11. Kattints a frissítés gombra.
+    ```html
+    <section style="border-style:dashed">
+    ```
 
-`B)` A szakasz tartalma szaggatott vonallal jelenik meg.
+9. Írd be a második rész tartalmát. A példa egy h2 elemet valamint egy p elemet is tartalmaz:
+    ```html
+    <h2>Review Considerations</h2>
+    <p>This review is intended for general users, not for gamers specifically.</p>˛
+    ```
+
+10. Írja be a záró `</section>` tag-et: `</section>`
+
+11. Kattints a frissítés gombra. \
+    `B)` A szakasz tartalma szaggatott vonallal jelenik meg.
+
 12. Kattintson a záró `</section>` címke elé, és írja be a `<section>` alszakasz nyitócímkéjét, beleértve a style attribútumot és a backgroundcolor:lightyellow megadását:
-```html
-<section style="background color: lightyellow">
-```
+    ```html
+    <section style="background color: lightyellow">
+    ```
+
 13. Irj le egy h3 és egy p elemet. Például:
-```html
-<h3>Switch Type/h3>
-<p>The review keyboard uses blue (clicky) key switches.</p>
-```
+    ```html
+    <h3>Switch Type/h3>
+    <p>The review keyboard uses blue (clicky) key switches.</p>
+    ```
 
 ![](./images/3-fejezet/63.oldal.png)
 
 14. Írja be az `</section>` alszakasz záró címkéjét:
-```html
-</section>
-```
-15. Kattints a frissítés gombra.
+    ```html
+    </section>
+    ```
 
-`C)` Az alszakasz megjelenik az oldalon.
+15. Kattints a frissítés gombra. \
+    `C)` Az alszakasz megjelenik az oldalon.
 
 ::: tip Tipp
 **Mi a különbség a *section* elem és a *div* elem között?**
@@ -403,57 +410,61 @@ A details elem lehetővé teszi olyan tartalomszakaszok létrehozását, amelyek
 
 1. A Visual Studio Code-ban hozz létre és ments el egy új fájlt, vagy nyisd meg a használni kívánt
 meglévő fájlt.
-2. Nyisd meg a fájlt egy böngészőablakban, hogy lásd az elvégzett módosítások eredményét.
-3. A Visual Studio Code-ban kattintással helyezze a beszúrási pontot oda, ahol az első details elemet
-kezdeni szeretné.
-4. Írja be a <`details>` nyitócímkét, nyomja le kétszer az (enter) billentyűt, majd írja be a záró `</details>` címkét:
-```html
-<details>
-</details>
-```
-5. Kattintson a `<details>` címke és a `</details>` címke közé, és írja be a `<summary>` nyitócímkét, annak
-tartalmát és a záró `</summary>` címkét – például:
-```html
-<summary>What is a mechanical keyboard?</summary>
-```
-6. Írja be azt a tartalmat, amelyet a details elem kattintásra megjelenít, például:
-```html
-<p>A mechanical keyboard is a keyboard that uses key switches rather than a membrane to register keystrokes.</p>
-```
-7. Kattints a frissítés gombra.
 
-`A)` A details elem megjelenik, de összecsukva, így csak az összefoglaló elem látható.
-8. Kattints a bővítés gombra. (a → átvált ↓-ra)
+2. Nyisd meg a fájlt egy böngészőablakban, hogy lásd az elvégzett módosítások eredményét.
+
+3. A Visual Studio Code-ban kattintással helyezze a beszúrási pontot oda, ahol az első details elemet kezdeni szeretné.
+
+4. Írja be a <`details>` nyitócímkét, nyomja le kétszer az (enter) billentyűt, majd írja be a záró `</details>` címkét:
+    ```html
+    <details>
+    </details>
+    ```
+
+5. Kattintson a `<details>` címke és a `</details>` címke közé, és írja be a `<summary>` nyitócímkét, annak tartalmát és a záró `</summary>` címkét – például:
+    ```html
+    <summary>What is a mechanical keyboard?</summary>
+    ```
+
+6. Írja be azt a tartalmat, amelyet a details elem kattintásra megjelenít, például:
+    ```html
+    <p>A mechanical keyboard is a keyboard that uses key switches rather than a membrane to register keystrokes.</p>
+    ```
+
+7. Kattints a frissítés gombra. \
+    `A)` A details elem megjelenik, de összecsukva, így csak az összefoglaló elem látható.
+    
+8. Kattints a bővítés gombra. (a → átvált ↓-ra) \
+    `B)` A details elem kinyílik, láthatóvá válik a tartalma.
+
+    `C)` Kattints a bezárás gombra (a ↓ átvált →-ra) ha el szeretnéd tüntetni a details elemet.
 
 ![](./images/3-fejezet/64.oldal.png)
 
-`B)` A details elem kinyílik, láthatóvá válik a tartalma.
+9. Kattins a details elem után a Visual Studio Code-ban, majd írj egy új details elemet, amely tartalmazza a summary elemet. Például:
+    ```html
+    <details>
+        <summary>What advantagesdo mechanical keyboards offer?</summary>
+        <p>Mechanical keyboards feel better to type on and enable some people to type faster.</p>
+    </details>
+    ```
 
-`C)` Kattints a bezárás gombra (a ↓ átvált →-ra) ha el szeretnéd tüntetni a details elemet.
-9. Kattins a details elem után a Visual Studio Code-ban, majd írj egy új details elemet, amely
-tartalmazza a summary elemet. Például:
-```html
-<details>
-    <summary>What advantagesdo mechanical keyboards offer?</summary>
-    <p>Mechanical keyboards feel better to type on and enable some people to type faster.</p>
-</details>
-```
 10. Kattintson a `</details>` második details elem záró címkéje elé (nem látható).
-11. Írj egy beágyazott details elemet. Add meg style attribútomként a margin-left:20px értéket, mint
-ebben a példában:.
-```html
-<details style="margin-left:20px">
-    <summary>Keyboard Feedback</summary>
-    <p>Keyboard feedback can contribute to both typing enjoyment and speed.</p>
-</details>
-```
+
+11. Írj egy beágyazott details elemet. Add meg style attribútomként a margin-left:20px értéket, mint ebben a példában:.
+    ```html
+    <details style="margin-left:20px">
+        <summary>Keyboard Feedback</summary>
+        <p>Keyboard feedback can contribute to both typing enjoyment and speed.</p>
+    </details>
+    ```
 
 ![](./images/3-fejezet/65.oldal.png)
 
-12. Kattints a frissítés gombra.
-Megjelenik a frissített lap.
+12. Kattints a frissítés gombra. \
+    Megjelenik a frissített lap.
 
-`D)` A külső details elemet és a beágyazott details elemet is kibonthatja.
+    `D)` A külső details elemet és a beágyazott details elemet is kibonthatja.
 
 ::: tip Tipp
 **Muszáj alkalmaznom a *summary* elemet minden egyes *details* elemben?**
