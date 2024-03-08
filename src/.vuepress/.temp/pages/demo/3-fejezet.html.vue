@@ -226,7 +226,7 @@ Ahelyett, hogy a stílusformázást soron belül alkalmazná, használhatja a k�
 </li>
 </ol>
 <div class="language-html line-numbers-mode" data-ext="html" data-title="html"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>footer</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">background-color</span><span class="token punctuation">:</span>aqua<span class="token punctuation">;</span> <span class="token property">border-style</span><span class="token punctuation">:</span>solid</span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="hint-container tip">
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="hint-container note">
 <p class="hint-container-title">Megjegyzés:</p>
 <p>A két tulajdonságot különítsük el egy pontosvesszővel.</p>
 </div>
@@ -234,7 +234,7 @@ Ahelyett, hogy a stílusformázást soron belül alkalmazná, használhatja a k�
 <li>Írjon szöveget a lábléc elemhez, például:</li>
 </ol>
 <div class="language-html line-numbers-mode" data-ext="html" data-title="html"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Copyright <span class="token entity named-entity" title="&copy;">&amp;copy;</span> 2023 M.Jones Productions<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="hint-container tip">
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="hint-container note">
 <p class="hint-container-title">Megjegyzés:</p>
 <p>A © a HTML-kód a copyright szimbólum, ©. Lásd a &quot;A HTML entitáskódok megértése&quot; című fejezetben található további információkért.</p>
 </div>

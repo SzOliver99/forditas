@@ -173,7 +173,7 @@ A böngésző megjeleníti a frissített oldalt.
 ```html
 <footer style="background-color:aqua; border-style:solid">
 ```
-::: tip Megjegyzés:
+::: note Megjegyzés:
 A két tulajdonságot különítsük el egy pontosvesszővel.
 :::
 
@@ -181,7 +181,7 @@ A két tulajdonságot különítsük el egy pontosvesszővel.
 ```html
 <p>Copyright &copy; 2023 M.Jones Productions</p>
 ```
-::: tip Megjegyzés:
+::: note Megjegyzés:
 A © a HTML-kód a copyright szimbólum, &copy;. Lásd a "A HTML entitáskódok megértése" című fejezetben található további információkért.
 :::
 
