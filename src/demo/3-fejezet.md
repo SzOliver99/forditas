@@ -30,7 +30,7 @@ A 3-1. táblázat ismerteti a leghasznosabb nem szemantikus és szemantikus elem
 | *nav* | Navigációs linkeket tartalmaz. A linkek célpontjai lehetnek akár az oldalon belül, akár azon kívül. |
 | *section* | Egy weboldal egy szakaszát tartalmazza. Például, ha egy oldal több témát tárgyal a h2 szinten, akkor minden egyes témához létrehozhat egy-egy szakaszelemet. |
 | *summary* | Tartalmaz egy látható címet a részletek elemen belül. A néző rákattinthat a címsorra a részletek megjelenítéséhez. |
-| *time* | Egy időpontot vagy egy dátumot és egy időpontot tartalmaz. Az idő elem rendelkezik egy datetime attribútummal, amely gépileg olvasható időpontot szolgáltat, amelyet a keresőmotorok és a böngészők 		használhatnak. |
+| *time* | Egy időpontot vagy egy dátumot és egy időpontot tartalmaz. Az idő elem rendelkezik egy datetime attribútummal, amely gépileg olvasható időpontot szolgáltat, amelyet a keresőmotorok és a böngészők használhatnak. |
 
 ![](./images/3-fejezet/53.oldal.png)
 

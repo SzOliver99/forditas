@@ -81,7 +81,7 @@
 </tr>
 <tr>
 <td style="text-align:left"><em>time</em></td>
-<td style="text-align:left">Egy időpontot vagy egy dátumot és egy időpontot tartalmaz. Az idő elem rendelkezik egy datetime attribútummal, amely gépileg olvasható időpontot szolgáltat, amelyet a keresőmotorok és a böngészők 		használhatnak.</td>
+<td style="text-align:left">Egy időpontot vagy egy dátumot és egy időpontot tartalmaz. Az idő elem rendelkezik egy datetime attribútummal, amely gépileg olvasható időpontot szolgáltat, amelyet a keresőmotorok és a böngészők használhatnak.</td>
 </tr>
 </tbody>
 </table>
