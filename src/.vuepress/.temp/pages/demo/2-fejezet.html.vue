@@ -78,7 +78,7 @@ A Mappa megnyitása párbeszédpanel bezárul.</p>
 <p>A Do You Trust the Authors of the Files in This Folder? párbeszédpanel bezárul. A Visual Studio Code megnyitja az elsődleges oldalsávot az Explorer ablaktábla megjelenítésével.</p>
 <p><code v-pre>B)</code> Megjelenik a kiválasztott mappa.</p>
 <p><code v-pre>C)</code> Az Összecsukás (~) gombra kattintva összecsukhatja az Intéző ablaktábla egy részét.</p>
-<!-- `D)` You can click Collapse ( ) to collapse a section of the Explorer panel.  -->
+<p><code v-pre>D)</code> You can click Collapse ( ) to collapse a section of the Explorer panel.</p>
 <p><code v-pre>E)</code> Az Explorer ablaktábla egy szakaszának kibontásához kattintson a Bővítés (&gt;) gombra.</p>
 <div class="hint-container note">
 <p class="hint-container-title">Megjegyzés:</p>

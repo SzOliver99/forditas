@@ -1,12 +1,12 @@
 import { defineClientConfig } from "vuepress/client";
-import { hasGlobalComponent } from "D:/programozas/vuepress/forditas/node_modules/@vuepress/helper/lib/client/index.js";
+import { hasGlobalComponent } from "C:/Users/d3asyn/stuff/School/forditas/node_modules/@vuepress/helper/lib/client/index.js";
 
-import { useScriptTag } from "D:/programozas/vuepress/forditas/node_modules/@vueuse/core/index.mjs";
-import FontIcon from "D:/programozas/vuepress/forditas/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import Badge from "D:/programozas/vuepress/forditas/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import VPCard from "D:/programozas/vuepress/forditas/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
+import { useScriptTag } from "C:/Users/d3asyn/stuff/School/forditas/node_modules/@vueuse/core/index.mjs";
+import FontIcon from "C:/Users/d3asyn/stuff/School/forditas/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import Badge from "C:/Users/d3asyn/stuff/School/forditas/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import VPCard from "C:/Users/d3asyn/stuff/School/forditas/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
 
-import "D:/programozas/vuepress/forditas/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
+import "C:/Users/d3asyn/stuff/School/forditas/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
 export default defineClientConfig({
   enhance: ({ app }) => {

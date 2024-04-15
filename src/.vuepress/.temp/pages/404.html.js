@@ -1,4 +1,4 @@
-import comp from "D:/programozas/vuepress/forditas/src/.vuepress/.temp/pages/404.html.vue"
+import comp from "C:/Users/d3asyn/stuff/School/forditas/src/.vuepress/.temp/pages/404.html.vue"
 const data = JSON.parse("{\"path\":\"/404.html\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{\"layout\":\"NotFound\"},\"headers\":[],\"readingTime\":{\"minutes\":0.01,\"words\":3},\"filePathRelative\":null}")
 export { comp, data }
 

@@ -87,7 +87,7 @@ A Do You Trust the Authors of the Files in This Folder? párbeszédpanel bezáru
 
 `C)` Az Összecsukás (~) gombra kattintva összecsukhatja az Intéző ablaktábla egy részét.
 
-<!-- `D)` You can click Collapse ( ) to collapse a section of the Explorer panel.  -->
+`D)` You can click Collapse ( ) to collapse a section of the Explorer panel.
 
 `E)` Az Explorer ablaktábla egy szakaszának kibontásához kattintson a Bővítés (>) gombra.
 
