@@ -177,7 +177,8 @@ A betűméretet vagy egy konkrét magasságra állíthatod be, például pixel v
 <li>Nyisd meg az HTML fájlt egy böngészőablakban.</li>
 </ol>
 <div class="hint-container note">
-<p class="hint-container-title">Megjegyzés: Ha új stílust kezdesz, gépeld be a nevét, majd egy szóközt és a Visual Studio Code automatikusan beírja a megfelelő zárójelet.</p>
+<p class="hint-container-title">Megjegyzés:</p>
+<p>Ha új stílust kezdesz, gépeld be a nevét, majd egy szóközt és a Visual Studio Code automatikusan beírja a megfelelő zárójelet.</p>
 </div>
 <ol start="4">
 <li>Kattints arra a helyre a stílusban, ahova hozzá akarod adni a betűméretet.</li>
@@ -239,7 +240,8 @@ A betűtávolság beállításához be kell foglalnod a letter-spacing tulajdons
 <li>A Visual Studio Code-ban nyisd meg azt a külső CSS fájlt, amelyen dolgozni szeretnél.</li>
 <li>Szintén a Visual Studio Code-ban nyisd meg azt az HTML fájlt, amelyhez hivatkoztál a külső CSS fájlra.</li>
 <li>Nyisd meg az HTML fájlt egy böngészőablakban.
-Megjegyzés: Ha új stílust kezdesz, gépeld be a nevét, majd egy szóközt és a Visual Studio Code automatikusan beírja a megfelelő zárójelet.</li>
+Megjegyzés:
+Ha új stílust kezdesz, gépeld be a nevét, majd egy szóközt és a Visual Studio Code automatikusan beírja a megfelelő zárójelet.</li>
 <li>Kattints arra a helyre a stílusban, ahova hozzá akarod adni a sor magasságát.</li>
 <li>Gépeld be a &quot;li&quot; szót. Megjelenik a kibővítési lista.</li>
 </ol>
@@ -389,7 +391,8 @@ tulajdonsághoz. A font-size tulajdonsághoz rendeld hozzá ugyanazt az értéke
 </li>
 </ol>
 <div class="hint-container note">
-<p class="hint-container-title">Megjegyzés: Ha új stílust kezdesz, írd be a nevét, egy szóközt, majd egy { karaktert. A Visual Studio Code automatikusan beilleszti a megfelelő záró kapcsos zárójelet, }.</p>
+<p class="hint-container-title">Megjegyzés:</p>
+<p>Ha új stílust kezdesz, írd be a nevét, egy szóközt, majd egy { karaktert. A Visual Studio Code automatikusan beilleszti a megfelelő záró kapcsos zárójelet, }.</p>
 </div>
 <ol start="4">
 <li>Kattints a stílusban arra a helyre, ahová hozzá akarod adni a színt.</li>
@@ -432,7 +435,8 @@ Az &quot;argument&quot; meghatározza a vízszintes távolságot az árnyék és
 </li>
 </ol>
 <div class="hint-container note">
-<p class="hint-container-title">Megjegyzés: Ha új stílust indítasz, írd be a nevet, egy szóközt, majd a {. A Visual Studio Code automatikusan beírja a záró kapcsos zárójelét, }.</p>
+<p class="hint-container-title">Megjegyzés:</p>
+<p>Ha új stílust indítasz, írd be a nevet, egy szóközt, majd a {. A Visual Studio Code automatikusan beírja a záró kapcsos zárójelét, }.</p>
 </div>
 <ol start="4">
 <li>
@@ -526,7 +530,8 @@ A weboldal frissül.</li>
 </li>
 </ol>
 <div class="hint-container note">
-<p class="hint-container-title">Megjegyzés: Ha új stílust kezdesz, írd be a nevét, egy szóközt, majd a {. A Visual Studio Code automatikusanbeírja a záró kapcsos zárójelét, }.</p>
+<p class="hint-container-title">Megjegyzés:</p>
+<p>Ha új stílust kezdesz, írd be a nevét, egy szóközt, majd a {. A Visual Studio Code automatikusanbeírja a záró kapcsos zárójelét, }.</p>
 </div>
 <ol start="4">
 <li>Kattints arra a stílusra, amelyre alkalmazni szeretnéd a szövegdekorációt.</li>
@@ -620,7 +625,8 @@ red wavy 5px
 <p><code v-pre>B)</code> Megjelenik a bal oldali kettős idézőjel, amelyet <code v-pre>&amp;ldquo;</code> határoz meg. Használhatja helyette a &amp;#8220-at.</p>
 <p><code v-pre>C)</code> Megjelenik a jobb oldali kettős idézőjel, amelyet a <code v-pre>&amp;#8221;</code> határoz meg. Használhatja az <code v-pre>&amp;rdquo;</code> helyette.</p>
 <div class="hint-container note">
-<p class="hint-container-title">Megjegyzés: A nem törő szóköz olyan szóköz, amely az előző és a következő szót egyben tartja, még akkor is, ha egyébként sortörés választja el őket. Például az `Acme&nbsp;` Corporation biztosítja, hogy a szavak ugyanabban a sorban jelenjenek meg.</p>
+<p class="hint-container-title">Megjegyzés:</p>
+<p>A nem törő szóköz olyan szóköz, amely az előző és a következő szót egyben tartja, még akkor is, ha egyébként sortörés választja el őket. Például az <code v-pre>Acme&amp;nbsp;</code> Corporation biztosítja, hogy a szavak ugyanabban a sorban jelenjenek meg.</p>
 </div>
 <h2 id="hangulatjelek-beszurasa" tabindex="-1"><a class="header-anchor" href="#hangulatjelek-beszurasa"><span>Hangulatjelek beszúrása</span></a></h2>
 <p>Az emojik, más néven hangulatjelek vagy smile-ik, az azonnali üzenetküldésben kezdõdtek, de mára az e-maileket, weboldalakat és az online élet más területeit is elfoglalták. A HTML lehetővé teszi hangulatjelek beszúrását egy HTML-dokumentumba, ha megadja a megfelelő entitásszámot az UTF!8 nevű Unicode-karakterkészletben, amely a világnyelvekben használt szabványos karakterek és szimbólumok többségét tartalmazza. A beszúrni kívánt hangulatjel entitásszámának, más néven kódpontjának megkereséséhez látogasson el egy olyan online webhelyre, mint az Emojipedia, www.emojipedia.org. Keressen vagy böngésszen a hangulatjel megkereséséhez, keresse meg a Codepoints kiolvasást, és másolja ki a számot.</p>

@@ -135,8 +135,8 @@ Az érintési pont átmozdul a <code v-pre>&lt;a&gt;</code> és <code v-pre>&lt;
 <p>Görgess le az oldal aljára.</p>
 </li>
 </ol>
-<p><img src="@source/demo/images/5-fejezet/96.oldal 1.png" alt="" loading="lazy">
-<img src="@source/demo/images/5-fejezet/96.oldal 2.png" alt="" loading="lazy"></p>
+<p><img src="@source/demo/images/5-fejezet/96-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/96-2.png" alt="" loading="lazy"></p>
 <div class="hint-container note">
 <p class="hint-container-title">Megjegyzés:</p>
 <p>Az állóvonalat a fájl végére helyezheted, ha a Control+End -t nyomod Windows-on vagy Linux-on. Mac-en a ⌘+ gombot nyomd meg.</p>
@@ -176,9 +176,9 @@ Az állóvonal az <code v-pre>&lt;a&gt;</code> tag utánra mozog.</p>
 <p>Kattints a hivatkozásra. Az oldal teteje jelenik meg.</p>
 </li>
 </ol>
-<p><img src="@source/demo/images/5-fejezet/97.oldal 1.png" alt="" loading="lazy">
-<img src="@source/demo/images/5-fejezet/97.oldal 2.png" alt="" loading="lazy">
-<img src="@source/demo/images/5-fejezet/97.oldal 3.png" alt="" loading="lazy"></p>
+<p><img src="@source/demo/images/5-fejezet/97-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/97-2.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/97-3.png" alt="" loading="lazy"></p>
 <div class="hint-container tip">
 <p class="hint-container-title">TIPP</p>
 <p><strong>Hogyan hozhatok létre egy hivatkozást egy adott horgonyhoz egy másik weboldalon?</strong></p>
@@ -220,8 +220,8 @@ Például, ha az switch_types.html nevű fájlban a start nevű alapnévre szere
 <code v-pre>B)</code> Megjelenik a képernyőtipp.</p>
 </li>
 </ol>
-<p><img src="@source/demo/images/5-fejezet/98.oldal 1.png" alt="" loading="lazy">
-<img src="@source/demo/images/5-fejezet/98.oldal 2.png" alt="" loading="lazy"></p>
+<p><img src="@source/demo/images/5-fejezet/98-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/98-2.png" alt="" loading="lazy"></p>
 <h2 id="iranyitsd-at-a-bongeszot-egy-masik-oldalra" tabindex="-1"><a class="header-anchor" href="#iranyitsd-at-a-bongeszot-egy-masik-oldalra"><span>Irányítsd át a böngészőt egy másik oldalra</span></a></h2>
 <p>Néha szükséged lehet arra, hogy átirányítsd a látogatókat egyik weboldalról a másikra. Például, ha két domain-ed van, egy elsődleges és egy másodlagos, lehet, hogy át szeretnéd irányítani a látogatókat a másodlagos domainről az elsődleges domainre.</p>
 <p>Általában ezt az átirányítást a szerver szintjén végzed, ami hatékonyabb; konzultálj a webtárhely-szolgáltatóddal az átirányítás konfigurálásával kapcsolatban. De ha a körülmények nem teszik lehetővé az átirányítást a szerveren keresztül, akkor az átirányítást megvalósíthatod a megfelelő weboldal fejlécében lévő http-equiv meta tag használatával, amint azt itt elmagyarázták. Irányítsd át a böngészőt egy másik oldalra:</p>
@@ -270,8 +270,8 @@ A Visual Studio Code beilleszti a nyitó <code v-pre>&lt;a&gt;</code> taget, a h
 <p>Kezdd el gépelni az útvonalat a fájlhoz, amelyet letölti a hivatkozá.</p>
 </li>
 </ol>
-<p><img src="@source/demo/images/5-fejezet/99.oldal 1.png" alt="" loading="lazy">
-<img src="@source/demo/images/5-fejezet/99.oldal 2.png" alt="" loading="lazy"></p>
+<p><img src="@source/demo/images/5-fejezet/99-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/99-2.png" alt="" loading="lazy"></p>
 <ol start="6">
 <li>
 <p>Ha az előugró menüben megjelenik a fájl, kattintson rá. Ha nem, fejezze be a név beírását.</p>
@@ -296,8 +296,8 @@ Megjelenik a helyi menü.</p>
 Megnyílik a Mentés másként ablak, és megadhatja hogy hová mentse el a fájlt.</p>
 </li>
 </ol>
-<p><img src="@source/demo/images/5-fejezet/100 1-kep.png" alt="" loading="lazy">
-<img src="@source/demo/images/5-fejezet/100 2-kep.png" alt="" loading="lazy"></p>
+<p><img src="@source/demo/images/5-fejezet/100-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/100-2.png" alt="" loading="lazy"></p>
 <h2 id="hozzon-letre-egy-hivatkozast-amely-e-mail-uzenetet-indit-el" tabindex="-1"><a class="header-anchor" href="#hozzon-letre-egy-hivatkozast-amely-e-mail-uzenetet-indit-el"><span>Hozzon létre egy hivatkozást, amely e-mail üzenetet indít el</span></a></h2>
 <p>A HTML lehetővé teszi egy hivatkozás létrehozását, amely elindítja az új e-mail üzenet létrehozását a látogató alapértelmezett levelezőalkalmazásában. Ez a funkció különféle célokra hasznos, például egyszerű módja annak, hogy a látogatók e-maileket küldhessenek a vállalatának vagy szervezetének. A link nem csak az üzenet e-mail címét, hanem tárgyát is megadhatja, ami különösen hasznos lehet olyan felhasználások esetén, mint például értékesítési kérdések vagy ügyfélszolgálati problémák.</p>
 <p>E-mail üzenetet indító hivatkozás létrehozásához meg kell adnia a mailto protokollt, és alapértelmezés szerint meg kell adnia az üzenetbe beírni kívánt információkat.Hozzon létre egy hivatkozást, amely e-mail üzenetet indít</p>
@@ -339,8 +339,8 @@ A Visual Studio Code beilleszti az nyitó <code v-pre>&lt;a&gt;</code> taget, hr
 Az alapértelmezett e-mail alkalmazásod megnyílik, és létrehoz egy üzenetet a linkben megadott részletekkel.</p>
 </li>
 </ol>
-<p><img src="@source/demo/images/5-fejezet/101 1-kep.png" alt="" loading="lazy">
-<img src="@source/demo/images/5-fejezet/101 2-kep.png" alt="" loading="lazy"></p>
+<p><img src="@source/demo/images/5-fejezet/101-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/101-2.png" alt="" loading="lazy"></p>
 <h2 id="link-letrehozasa-egy-kepbol" tabindex="-1"><a class="header-anchor" href="#link-letrehozasa-egy-kepbol"><span>Link létrehozása egy képből</span></a></h2>
 <p>A szöveges hivatkozások a webes hivatkozások alapvető típusai, de a HTML lehetővé teszi hivatkozások létrehozását képekből és más objektumokból is. Hozzáadhat például olyan miniatűr képekre mutató hivatkozásokat, amelyek a teljes méretű képeket vagy a kapcsolódó információkat jelenítik meg. Mivel előfordulhat, hogy egyes látogatók nem látják a képeket, általában jó ötlet alternatív linket biztosítani, például szöveges linket és képlinket.</p>
 <p>Ebben a példában egy weblapon már egy elhelyezett képre mutató hivatkozást ad hozzá. Ha szeretné, először hozzáadhatja a hivatkozást, és majd utána beillesztheti a képet.</p>
@@ -375,8 +375,8 @@ Az automatikus kiegészítés lista megjelenik.</p>
 <li>Kattintson a megfelelő oldalra. <br>
 <code v-pre>B)</code> Megjelenik az oldal neve.</li>
 </ol>
-<p><img src="@source/demo/images/5-fejezet/102 1-kep.png" alt="" loading="lazy">
-<img src="@source/demo/images/5-fejezet/102 2-kep.png" alt="" loading="lazy"></p>
+<p><img src="@source/demo/images/5-fejezet/102-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/102-2.png" alt="" loading="lazy"></p>
 <ol start="8">
 <li>
 <p>Húzza végig az egérmutatót a záró <code v-pre>&lt;/a&gt;</code> tagen annak kijelöléséhez.</p>
@@ -397,8 +397,8 @@ A weboldal lefrissül.</p>
 <p>A hivatkozásra kattintva megjelenítheti a céloldalt.</p>
 </li>
 </ol>
-<p><img src="@source/demo/images/5-fejezet/103 1-kep.png" alt="" loading="lazy">
-<img src="@source/demo/images/5-fejezet/103 2-kep.png" alt="" loading="lazy"></p>
+<p><img src="@source/demo/images/5-fejezet/103-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/103-2.png" alt="" loading="lazy"></p>
 <div class="hint-container tip">
 <p class="hint-container-title">Tipp</p>
 <p><strong>How can I make an image link more obvious to the visitor?</strong></p>

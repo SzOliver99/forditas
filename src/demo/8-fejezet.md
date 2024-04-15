@@ -211,7 +211,8 @@ A betűméretet vagy egy konkrét magasságra állíthatod be, például pixel v
 1. A Visual Studio Code-ban nyisd meg azt a külső CSS fájlt, amelyen dolgozni szeretnél.
 2. Szintén a Visual Studio Code-ban nyisd meg azt az HTML fájlt, amelyhez hivatkoztál a külső CSS fájlra.
 3. Nyisd meg az HTML fájlt egy böngészőablakban.
-::: note Megjegyzés: Ha új stílust kezdesz, gépeld be a nevét, majd egy szóközt és a Visual Studio Code automatikusan beírja a megfelelő zárójelet.
+::: note Megjegyzés: 
+Ha új stílust kezdesz, gépeld be a nevét, majd egy szóközt és a Visual Studio Code automatikusan beírja a megfelelő zárójelet.
 :::
 4. Kattints arra a helyre a stílusban, ahova hozzá akarod adni a betűméretet.
 
@@ -266,7 +267,8 @@ A betűtávolság beállításához be kell foglalnod a letter-spacing tulajdons
 1. A Visual Studio Code-ban nyisd meg azt a külső CSS fájlt, amelyen dolgozni szeretnél.
 2. Szintén a Visual Studio Code-ban nyisd meg azt az HTML fájlt, amelyhez hivatkoztál a külső CSS fájlra.
 3. Nyisd meg az HTML fájlt egy böngészőablakban.
-   Megjegyzés: Ha új stílust kezdesz, gépeld be a nevét, majd egy szóközt és a Visual Studio Code automatikusan beírja a megfelelő zárójelet.
+   Megjegyzés: 
+   Ha új stílust kezdesz, gépeld be a nevét, majd egy szóközt és a Visual Studio Code automatikusan beírja a megfelelő zárójelet.
 4. Kattints arra a helyre a stílusban, ahova hozzá akarod adni a sor magasságát.
 5. Gépeld be a "li" szót. Megjelenik a kibővítési lista.
 
@@ -429,7 +431,8 @@ color: hsla(240, 100%, 50%, 0.5);
 
 3. Nyisd meg az HTML fájlt egy böngészőablakban.
 
-::: note Megjegyzés: Ha új stílust kezdesz, írd be a nevét, egy szóközt, majd egy { karaktert. A Visual Studio Code automatikusan beilleszti a megfelelő záró kapcsos zárójelet, }.
+::: note Megjegyzés: 
+Ha új stílust kezdesz, írd be a nevét, egy szóközt, majd egy { karaktert. A Visual Studio Code automatikusan beilleszti a megfelelő záró kapcsos zárójelet, }.
 :::
 
 4. Kattints a stílusban arra a helyre, ahová hozzá akarod adni a színt.
@@ -467,7 +470,8 @@ Az "argument" meghatározza a vízszintes távolságot az árnyék és a szöveg
 
 3. Nyisd meg az HTML fájlt egy böngészőablakban.
 
-::: note Megjegyzés: Ha új stílust indítasz, írd be a nevet, egy szóközt, majd a {. A Visual Studio Code automatikusan beírja a záró kapcsos zárójelét, }.
+::: note Megjegyzés: 
+Ha új stílust indítasz, írd be a nevet, egy szóközt, majd a {. A Visual Studio Code automatikusan beírja a záró kapcsos zárójelét, }.
 :::
 
 4. Kattints azon a stíluson, ahol alkalmazni szeretnéd a szövegárnyékokat.
@@ -548,7 +552,8 @@ A CSS biztosítja a text-decoration tulajdonságot a szöveg "dekorációjának"
 
 3. Nyisd meg az HTML fájlt egy böngészőablakban.
 
-::: note Megjegyzés: Ha új stílust kezdesz, írd be a nevét, egy szóközt, majd a {. A Visual Studio Code automatikusanbeírja a záró kapcsos zárójelét, }.
+::: note Megjegyzés: 
+Ha új stílust kezdesz, írd be a nevét, egy szóközt, majd a {. A Visual Studio Code automatikusanbeírja a záró kapcsos zárójelét, }.
 :::
 
 4. Kattints arra a stílusra, amelyre alkalmazni szeretnéd a szövegdekorációt.
@@ -653,7 +658,8 @@ Miután ismeri a beszúrni kívánt speciális karakter HTML-entitáskódját, g
 
 `C)` Megjelenik a jobb oldali kettős idézőjel, amelyet a `&#8221;` határoz meg. Használhatja az `&rdquo;` helyette.
 
-::: note Megjegyzés: A nem törő szóköz olyan szóköz, amely az előző és a következő szót egyben tartja, még akkor is, ha egyébként sortörés választja el őket. Például az `Acme&nbsp;` Corporation biztosítja, hogy a szavak ugyanabban a sorban jelenjenek meg.
+::: note Megjegyzés: 
+A nem törő szóköz olyan szóköz, amely az előző és a következő szót egyben tartja, még akkor is, ha egyébként sortörés választja el őket. Például az `Acme&nbsp;` Corporation biztosítja, hogy a szavak ugyanabban a sorban jelenjenek meg.
 :::
 
 

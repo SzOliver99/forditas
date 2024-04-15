@@ -148,8 +148,8 @@ Nyomj entert, hogy szükség esetén üres sorokat adj hozzá.
 
 6. Görgess le az oldal aljára.
 
-![](./images/5-fejezet/96.oldal%201.png)
-![](./images/5-fejezet/96.oldal%202.png)
+![](./images/5-fejezet/96-1.png)
+![](./images/5-fejezet/96-2.png)
 
 ::: note Megjegyzés:
 Az állóvonalat a fájl végére helyezheted, ha a Control+End -t nyomod Windows-on vagy Linux-on. Mac-en a ⌘+ gombot nyomd meg.
@@ -178,9 +178,9 @@ Az állóvonalat a fájl végére helyezheted, ha a Control+End -t nyomod Window
 
 16. Kattints a hivatkozásra. Az oldal teteje jelenik meg.
 
-![](./images/5-fejezet/97.oldal%201.png)
-![](./images/5-fejezet/97.oldal%202.png)
-![](./images/5-fejezet/97.oldal%203.png)
+![](./images/5-fejezet/97-1.png)
+![](./images/5-fejezet/97-2.png)
+![](./images/5-fejezet/97-3.png)
 
 ::: tip TIPP
 **Hogyan hozhatok létre egy hivatkozást egy adott horgonyhoz egy másik weboldalon?**
@@ -217,8 +217,8 @@ Helyezd az állóvonalat a meglévő attribútumok közé, ne az attribútum bel
 7. Mozgasd az egérmutatót a hivatkozás fölé. \
     `B)` Megjelenik a képernyőtipp.
 
-![](./images/5-fejezet/98.oldal%201.png)
-![](./images/5-fejezet/98.oldal%202.png)
+![](./images/5-fejezet/98-1.png)
+![](./images/5-fejezet/98-2.png)
 
 ## Irányítsd át a böngészőt egy másik oldalra
 Néha szükséged lehet arra, hogy átirányítsd a látogatókat egyik weboldalról a másikra. Például, ha két domain-ed van, egy elsődleges és egy másodlagos, lehet, hogy át szeretnéd irányítani a látogatókat a másodlagos domainről az elsődleges domainre.
@@ -261,8 +261,8 @@ A letöltési fájlok elhelyezése egy külön könyvtárban, például egy let�
 
 5. Kezdd el gépelni az útvonalat a fájlhoz, amelyet letölti a hivatkozá.
 
-![](./images/5-fejezet/99.oldal%201.png)
-![](./images/5-fejezet/99.oldal%202.png)
+![](./images/5-fejezet/99-1.png)
+![](./images/5-fejezet/99-2.png)
 
 6. Ha az előugró menüben megjelenik a fájl, kattintson rá. Ha nem, fejezze be a név beírását.
 
@@ -280,8 +280,8 @@ A beszúrási pont a nyitó `<a>` címke > jele után mozog.
 11. Adja ki a Mentés másként parancsot. Például a Chrome-ban kattintson a Link mentése másként lehetőségre. \
     Megnyílik a Mentés másként ablak, és megadhatja hogy hová mentse el a fájlt.
 
-![](./images/5-fejezet/100%201-kep.png)
-![](./images/5-fejezet/100%202-kep.png)
+![](./images/5-fejezet/100-1.png)
+![](./images/5-fejezet/100-2.png)
 
 ## Hozzon létre egy hivatkozást, amely e-mail üzenetet indít el
 A HTML lehetővé teszi egy hivatkozás létrehozását, amely elindítja az új e-mail üzenet létrehozását a látogató alapértelmezett levelezőalkalmazásában. Ez a funkció különféle célokra hasznos, például egyszerű módja annak, hogy a látogatók e-maileket küldhessenek a vállalatának vagy szervezetének. A link nem csak az üzenet e-mail címét, hanem tárgyát is megadhatja, ami különösen hasznos lehet olyan felhasználások esetén, mint például értékesítési kérdések vagy ügyfélszolgálati problémák.
@@ -318,8 +318,8 @@ E-mail üzenetet indító hivatkozás létrehozásához meg kell adnia a mailto 
 10. Kattints a link-re. \
 	Az alapértelmezett e-mail alkalmazásod megnyílik, és létrehoz egy üzenetet a linkben megadott részletekkel.
 
-![](./images/5-fejezet/101%201-kep.png)
-![](./images/5-fejezet/101%202-kep.png)
+![](./images/5-fejezet/101-1.png)
+![](./images/5-fejezet/101-2.png)
 
 ## Link létrehozása egy képből
 A szöveges hivatkozások a webes hivatkozások alapvető típusai, de a HTML lehetővé teszi hivatkozások létrehozását képekből és más objektumokból is. Hozzáadhat például olyan miniatűr képekre mutató hivatkozásokat, amelyek a teljes méretű képeket vagy a kapcsolódó információkat jelenítik meg. Mivel előfordulhat, hogy egyes látogatók nem látják a képeket, általában jó ötlet alternatív linket biztosítani, például szöveges linket és képlinket.
@@ -348,8 +348,8 @@ Külső oldalra mutató hivatkozás esetén írja be vagy illessze be a teljes U
 7. Kattintson a megfelelő oldalra. \
     `B)` Megjelenik az oldal neve.
 
-![](./images/5-fejezet/102%201-kep.png)
-![](./images/5-fejezet/102%202-kep.png)
+![](./images/5-fejezet/102-1.png)
+![](./images/5-fejezet/102-2.png)
 
 8. Húzza végig az egérmutatót a záró `</a>` tagen annak kijelöléséhez.
 
@@ -368,8 +368,8 @@ Külső oldalra mutató hivatkozás esetén írja be vagy illessze be a teljes U
 
     A hivatkozásra kattintva megjelenítheti a céloldalt.
 
-![](./images/5-fejezet/103%201-kep.png)
-![](./images/5-fejezet/103%202-kep.png)
+![](./images/5-fejezet/103-1.png)
+![](./images/5-fejezet/103-2.png)
 
 ::: tip Tipp
 **How can I make an image link more obvious to the visitor?**
