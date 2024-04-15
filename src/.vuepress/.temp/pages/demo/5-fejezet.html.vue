@@ -6,6 +6,7 @@
 <p>A legegyszerűbb típusú link a szövegalapú link. Alapértelmezés szerint a szövegalapú linkek kék betűtípussal jelennek meg aláhúzással (A), de más formázást is választhatsz. Amikor egy szöveghivatkozásra kattintasz, alapértelmezett formázása skarlát betűtípusra és aláhúzásra változik, lehetővé téve számodra, hogy lássad, mely hivatkozásokra kattintottál már korábban.</p>
 <p>Az ábrázolás elemként képet használ a hivatkozás megjelenítéséhez. Egyéb objektum-hivatkozások más objektumokat használnak fel - például alakzatot - a megjelenítési komponensként.</p>
 <p>Amikor a mutatót egy link fölé mozgatod, az a szokásos nyílmutatóról a linkmutatóra (B) változik, egy felfelé mutató jobb kézzel, kinyújtott mutatóujjal, amely tőled távolabb van. Ez a mutatóváltás lehetővé teszi, hogy könnyen felismerje a linkeket bármilyen formában is jelennek meg.</p>
+<figure><img src="@source/demo/images/5-fejezet/92-1.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3 id="azonositsa-a-hivatkozas-osszetevoit" tabindex="-1"><a class="header-anchor" href="#azonositsa-a-hivatkozas-osszetevoit"><span>Azonosítsa a hivatkozás összetevőit</span></a></h3>
 <p>A szöveghivatkozásnak az alábbi összetevői vannak, ahogyan azt a közeli ábrázolás mutatja.</p>
 <ul>
@@ -25,6 +26,7 @@
 <p>A <code v-pre>&lt;/a&gt;</code> címke zárja le az anchor-t.</p>
 </li>
 </ul>
+<figure><img src="@source/demo/images/5-fejezet/92-2.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3 id="abszolut-linkek-es-relativ-linkek-kozotti-kulonbsegek-es-kivalasztasuk-kozotti-dontes" tabindex="-1"><a class="header-anchor" href="#abszolut-linkek-es-relativ-linkek-kozotti-kulonbsegek-es-kivalasztasuk-kozotti-dontes"><span>Abszolút linkek és relatív linkek közötti különbségek és kiválasztásuk közötti döntés</span></a></h3>
 <p>Az HTML lehetővé teszi az abszolút linkek vagy relatív linkek használatát.</p>
 <p>Az abszolút link magában foglalja a link céljának teljes címét, beleértve azt a prefixet, amely megmondja a böngészőnek, milyen protokollt használjon. Például az alábbi link abszolút:</p>
@@ -34,11 +36,12 @@
 <div class="language-html line-numbers-mode" data-ext="html" data-title="html"><pre v-pre class="language-html"><code>href="page2.html"
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>Ha a cél fájl egy másik mappában van, a relatív linknek elegendő információt kell tartalmaznia annak eléréséhez. Például az alábbi link egy olyan fájlra mutat, amely a képek mappában található ugyanazon a webhelyen:</p>
 <div class="language-html line-numbers-mode" data-ext="html" data-title="html"><pre v-pre class="language-html"><code>href="images/logo14.png"
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>Általában relatív linkeket szeretnél használni saját weboldalaid között, mert a linkek továbbra is működnek, amikor áthelyezed a webhelyedet egyik helyről a másikra. Például előfordulhat, hogy a weboldaladat helyi számítógépeden fejleszted ki, majd áthelyezed a webtárhelyedre, feltöltve a mappákat, így az oldalak relatív pozíciói változatlanok maradnak.</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2 id="hozzon-letre-egy-linket-egy-weboldalra" tabindex="-1"><a class="header-anchor" href="#hozzon-letre-egy-linket-egy-weboldalra"><span>Hozzon létre egy linket egy weboldalra.</span></a></h2>
+<p>Általában relatív linkeket szeretnél használni saját weboldalaid között, mert a linkek továbbra is működnek, amikor áthelyezed a webhelyedet egyik helyről a másikra. Például előfordulhat, hogy a weboldaladat helyi számítógépeden fejleszted ki, majd áthelyezed a webtárhelyedre, feltöltve a mappákat, így az oldalak relatív pozíciói változatlanok maradnak.</p>
 <p>Abszolút linkeket használj, amikor weboldalaidról külső webhelyekre mutatsz. Mivel a címek teljesek, nem érinti az, ha áthelyezed a webhelyet a helyi számítógépedről a webtárhelyedre.</p>
 <p>Sok link más weboldalakra vezet, vagy ugyanarra a weboldalra, vagy egy másik weboldalra. Valószínűleg sok oldalt kell összekapcsolnod a weboldaladon belül, hogy a látogatók gyorsan és könnyen tudjanak navigálni az oldalak között.</p>
 <p>Ebben a szakaszban egy hivatkozást hozol létre az egyik weboldalon található szövegből egy másik weboldalra ugyanazon a webhelyen. A példát követve az úticél weboldalnak - az oldalnak, amelyre a link mutat - már léteznie kell; szükség esetén hozd létre az oldalt a példa követése előtt.</p>
-<p>Hozzon létre egy linket egy weboldalra.</p>
+<h3 id="hozzon-letre-egy-linket-egy-weboldalra-1" tabindex="-1"><a class="header-anchor" href="#hozzon-letre-egy-linket-egy-weboldalra-1"><span>Hozzon létre egy linket egy weboldalra.</span></a></h3>
 <ol>
 <li>
 <p>A Visual Studio Code-ban hozzon létre és mentsen el egy új fájlt, vagy nyissa meg azt a meglévő fájlt, amelyet szeretne használni.</p>
@@ -64,6 +67,11 @@
 A Visual Studio Code beilleszti a <code v-pre>&lt;a&gt;</code> címkét, beleértve a href attribútumot, és az érintési pontot elhelyezi a két idézőjel közé:</p>
 <div class="language-html line-numbers-mode" data-ext="html" data-title="html"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+</ol>
+<p><img src="@source/demo/images/5-fejezet/94-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/94-2.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/94-3.png" alt="" loading="lazy"></p>
+<ol start="6">
 <li>
 <p>Írja be a céloldal nevének az első betűjét. <br>
 <code v-pre>B)</code> Megjelenik egy olyan oldalak listája, amelyek ezzel a betűvel kezdődnek.</p>
@@ -86,6 +94,9 @@ Az érintési pont átmozdul a <code v-pre>&lt;a&gt;</code> és <code v-pre>&lt;
 <p>A linkre kattintva megtekintheti a kapcsolt oldalt.</p>
 </li>
 </ol>
+<p><img src="@source/demo/images/5-fejezet/95-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/95-2.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/95-3.png" alt="" loading="lazy"></p>
 <div class="hint-container tip">
 <p class="hint-container-title">TIPP</p>
 <p><strong>Hogyan hozok létre egy linket egy másik weboldalra?</strong></p>
@@ -124,6 +135,8 @@ Az érintési pont átmozdul a <code v-pre>&lt;a&gt;</code> és <code v-pre>&lt;
 <p>Görgess le az oldal aljára.</p>
 </li>
 </ol>
+<p><img src="@source/demo/images/5-fejezet/96.oldal 1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/96.oldal 2.png" alt="" loading="lazy"></p>
 <div class="hint-container note">
 <p class="hint-container-title">Megjegyzés:</p>
 <p>Az állóvonalat a fájl végére helyezheted, ha a Control+End -t nyomod Windows-on vagy Linux-on. Mac-en a ⌘+ gombot nyomd meg.</p>
@@ -163,6 +176,9 @@ Az állóvonal az <code v-pre>&lt;a&gt;</code> tag utánra mozog.</p>
 <p>Kattints a hivatkozásra. Az oldal teteje jelenik meg.</p>
 </li>
 </ol>
+<p><img src="@source/demo/images/5-fejezet/97.oldal 1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/97.oldal 2.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/97.oldal 3.png" alt="" loading="lazy"></p>
 <div class="hint-container tip">
 <p class="hint-container-title">TIPP</p>
 <p><strong>Hogyan hozhatok létre egy hivatkozást egy adott horgonyhoz egy másik weboldalon?</strong></p>
@@ -204,6 +220,8 @@ Például, ha az switch_types.html nevű fájlban a start nevű alapnévre szere
 <code v-pre>B)</code> Megjelenik a képernyőtipp.</p>
 </li>
 </ol>
+<p><img src="@source/demo/images/5-fejezet/98.oldal 1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/98.oldal 2.png" alt="" loading="lazy"></p>
 <h2 id="iranyitsd-at-a-bongeszot-egy-masik-oldalra" tabindex="-1"><a class="header-anchor" href="#iranyitsd-at-a-bongeszot-egy-masik-oldalra"><span>Irányítsd át a böngészőt egy másik oldalra</span></a></h2>
 <p>Néha szükséged lehet arra, hogy átirányítsd a látogatókat egyik weboldalról a másikra. Például, ha két domain-ed van, egy elsődleges és egy másodlagos, lehet, hogy át szeretnéd irányítani a látogatókat a másodlagos domainről az elsődleges domainre.</p>
 <p>Általában ezt az átirányítást a szerver szintjén végzed, ami hatékonyabb; konzultálj a webtárhely-szolgáltatóddal az átirányítás konfigurálásával kapcsolatban. De ha a körülmények nem teszik lehetővé az átirányítást a szerveren keresztül, akkor az átirányítást megvalósíthatod a megfelelő weboldal fejlécében lévő http-equiv meta tag használatával, amint azt itt elmagyarázták. Irányítsd át a böngészőt egy másik oldalra:</p>
@@ -251,6 +269,10 @@ A Visual Studio Code beilleszti a nyitó <code v-pre>&lt;a&gt;</code> taget, a h
 <li>
 <p>Kezdd el gépelni az útvonalat a fájlhoz, amelyet letölti a hivatkozá.</p>
 </li>
+</ol>
+<p><img src="@source/demo/images/5-fejezet/99.oldal 1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/99.oldal 2.png" alt="" loading="lazy"></p>
+<ol start="6">
 <li>
 <p>Ha az előugró menüben megjelenik a fájl, kattintson rá. Ha nem, fejezze be a név beírását.</p>
 </li>
@@ -274,6 +296,8 @@ Megjelenik a helyi menü.</p>
 Megnyílik a Mentés másként ablak, és megadhatja hogy hová mentse el a fájlt.</p>
 </li>
 </ol>
+<p><img src="@source/demo/images/5-fejezet/100 1-kep.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/100 2-kep.png" alt="" loading="lazy"></p>
 <h2 id="hozzon-letre-egy-hivatkozast-amely-e-mail-uzenetet-indit-el" tabindex="-1"><a class="header-anchor" href="#hozzon-letre-egy-hivatkozast-amely-e-mail-uzenetet-indit-el"><span>Hozzon létre egy hivatkozást, amely e-mail üzenetet indít el</span></a></h2>
 <p>A HTML lehetővé teszi egy hivatkozás létrehozását, amely elindítja az új e-mail üzenet létrehozását a látogató alapértelmezett levelezőalkalmazásában. Ez a funkció különféle célokra hasznos, például egyszerű módja annak, hogy a látogatók e-maileket küldhessenek a vállalatának vagy szervezetének. A link nem csak az üzenet e-mail címét, hanem tárgyát is megadhatja, ami különösen hasznos lehet olyan felhasználások esetén, mint például értékesítési kérdések vagy ügyfélszolgálati problémák.</p>
 <p>E-mail üzenetet indító hivatkozás létrehozásához meg kell adnia a mailto protokollt, és alapértelmezés szerint meg kell adnia az üzenetbe beírni kívánt információkat.Hozzon létre egy hivatkozást, amely e-mail üzenetet indít</p>
@@ -315,6 +339,8 @@ A Visual Studio Code beilleszti az nyitó <code v-pre>&lt;a&gt;</code> taget, hr
 Az alapértelmezett e-mail alkalmazásod megnyílik, és létrehoz egy üzenetet a linkben megadott részletekkel.</p>
 </li>
 </ol>
+<p><img src="@source/demo/images/5-fejezet/101 1-kep.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/101 2-kep.png" alt="" loading="lazy"></p>
 <h2 id="link-letrehozasa-egy-kepbol" tabindex="-1"><a class="header-anchor" href="#link-letrehozasa-egy-kepbol"><span>Link létrehozása egy képből</span></a></h2>
 <p>A szöveges hivatkozások a webes hivatkozások alapvető típusai, de a HTML lehetővé teszi hivatkozások létrehozását képekből és más objektumokból is. Hozzáadhat például olyan miniatűr képekre mutató hivatkozásokat, amelyek a teljes méretű képeket vagy a kapcsolódó információkat jelenítik meg. Mivel előfordulhat, hogy egyes látogatók nem látják a képeket, általában jó ötlet alternatív linket biztosítani, például szöveges linket és képlinket.</p>
 <p>Ebben a példában egy weblapon már egy elhelyezett képre mutató hivatkozást ad hozzá. Ha szeretné, először hozzáadhatja a hivatkozást, és majd utána beillesztheti a képet.</p>
@@ -346,10 +372,12 @@ Az automatikus kiegészítés lista megjelenik.</p>
 <p>Külső oldalra mutató hivatkozás esetén írja be vagy illessze be a teljes URL-t.</p>
 </div>
 <ol start="7">
-<li>
-<p>Kattintson a megfelelő oldalra. <br>
-<code v-pre>B)</code> Megjelenik az oldal neve.</p>
-</li>
+<li>Kattintson a megfelelő oldalra. <br>
+<code v-pre>B)</code> Megjelenik az oldal neve.</li>
+</ol>
+<p><img src="@source/demo/images/5-fejezet/102 1-kep.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/102 2-kep.png" alt="" loading="lazy"></p>
+<ol start="8">
 <li>
 <p>Húzza végig az egérmutatót a záró <code v-pre>&lt;/a&gt;</code> tagen annak kijelöléséhez.</p>
 </li>
@@ -369,6 +397,8 @@ A weboldal lefrissül.</p>
 <p>A hivatkozásra kattintva megjelenítheti a céloldalt.</p>
 </li>
 </ol>
+<p><img src="@source/demo/images/5-fejezet/103 1-kep.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/103 2-kep.png" alt="" loading="lazy"></p>
 <div class="hint-container tip">
 <p class="hint-container-title">Tipp</p>
 <p><strong>How can I make an image link more obvious to the visitor?</strong></p>
@@ -404,6 +434,10 @@ A kiegészítő lista megjelenik.</p>
 <p>Kattintson a megfelelő bejegyzésre. <br>
 A képfálj neve megjelenik.</p>
 </li>
+</ol>
+<p><img src="@source/demo/images/5-fejezet/104-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/104-2.png" alt="" loading="lazy"></p>
+<ol start="8">
 <li>
 <p>Kattints a idézőjelek közötti &quot;alt=&quot; mögötti dupla idézőjelre, és írd be a kép alternatív szövegét.</p>
 </li>
@@ -438,6 +472,8 @@ Megjelenik a nyitó <code v-pre>&lt;map&gt;</code> címke és a záró <code v-p
 <p>Nyomd le a Tab billentyűt a beszúrási pont áthelyezéséhez a <code v-pre>&lt;/map&gt;</code> címke elé, majd nyomd le az Enter billentyűt többször, hogy üres sorokat szúrj be a <code v-pre>&lt;/map&gt;</code> címke elé.</p>
 </li>
 </ol>
+<p><img src="@source/demo/images/5-fejezet/105-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/105-2.png" alt="" loading="lazy"></p>
 <div class="hint-container tip">
 <p class="hint-container-title">TIPP</p>
 <p><strong>Hogyan készítsek elő egy képet képtérképként való használatra?</strong></p>
@@ -468,6 +504,10 @@ A Visual Studio Code beszúrja egy téglalap alakú terület alapcímkéjét:</p
 <li>
 <p>Nyomja le a billentyűt a beszúrási pont áthelyezéséhez a záró kettős idézőjelek mögött, majd írja be a title attribútumot és a hozzárendelni kívánt szöveget.</p>
 </li>
+</ol>
+<p><img src="@source/demo/images/5-fejezet/106-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/106-2.png" alt="" loading="lazy"></p>
+<ol start="23">
 <li>
 <p>Ismételje meg a 17-22. lépéseket a következő üres sorban a második terület létrehozásához. <br>
 Ezúttal adja meg a koordinátákat, a célt, az alternatív szöveget és a címet a második terület számára.</p>
@@ -484,6 +524,8 @@ A weboldal frissül.</p>
 <p><code v-pre>B)</code> A terület cél URL-je megjelenik.</p>
 </li>
 </ol>
+<p><img src="@source/demo/images/5-fejezet/107-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/107-2.png" alt="" loading="lazy"></p>
 <div class="hint-container tip">
 <p class="hint-container-title">TIPP</p>
 <p><strong>Létrehozhatok átfedő területeket egy képtérképen?</strong></p>
@@ -530,9 +572,12 @@ Megjelenik a fájl neve.</p>
 <li>
 <p>Kattintson a <code v-pre>&lt;/audio&gt;</code> címke elé.</p>
 </li>
-<li>
-<p>Írja be a szöveget, amelyet a böngésző megjeleníthet, ha nem tudja lejátszani a hangfájlt - például, A böngésző nem tudja lejátszani ezt a hangfájlt.</p>
-</li>
+</ol>
+<p><img src="@source/demo/images/5-fejezet/108-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/108-2.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/108-3.png" alt="" loading="lazy"></p>
+<ol start="11">
+<li>Írja be a szöveget, amelyet a böngésző megjeleníthet, ha nem tudja lejátszani a hangfájlt - például, A böngésző nem tudja lejátszani ezt a hangfájlt.</li>
 </ol>
 <div class="hint-container note">
 <p class="hint-container-title">Megjegyzés:</p>
@@ -549,6 +594,8 @@ Megjelenik a fájl neve.</p>
 <p><code v-pre>C)</code> A hangerő beállításához kattintson a Hangerő gombra.</p>
 </li>
 </ol>
+<p><img src="@source/demo/images/5-fejezet/109-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/109-2.png" alt="" loading="lazy"></p>
 <div class="hint-container note">
 <p class="hint-container-title">Megjegyzés:</p>
 <p>A hangvezérlo más a
@@ -608,9 +655,11 @@ Megjelenik a fájl neve.</p>
 <li>
 <p>Kattintson a <code v-pre>&lt;/video&gt;</code> tag elé.</p>
 </li>
-<li>
-<p>Írja be a böngésző által megjelenítendő szöveget ha nem tudja a felhasznaló lejátszani a videofájlt -például: A böngésző nem tudja lejátszani ezt a videót videót.</p>
-</li>
+</ol>
+<p><img src="@source/demo/images/5-fejezet/110-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/110-2.png" alt="" loading="lazy"></p>
+<ol start="12">
+<li>Írja be a böngésző által megjelenítendő szöveget ha nem tudja a felhasznaló lejátszani a videofájlt -például: A böngésző nem tudja lejátszani ezt a videót videót.</li>
 </ol>
 <div class="hint-container note">
 <p class="hint-container-title">Megjegyzés:</p>
@@ -628,6 +677,8 @@ A hang lejátszása megkezdődik.</p>
 <p><code v-pre>D)</code> Kattintson a Teljes képernyő a videó teljes méretűre történő kibontásához.</p>
 </li>
 </ol>
+<p><img src="@source/demo/images/5-fejezet/111-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/111-2.png" alt="" loading="lazy"></p>
 <div class="hint-container note">
 <p class="hint-container-title">Megjegyzés:</p>
 <p>A videóvezérlésnek más a megjelenése a különböző böngészőkben, de a ikonjai általában könnyen érthetőek.</p>
@@ -671,10 +722,12 @@ A Visual Studio Code beilleszti a nyitó <code v-pre>&lt;iframe&gt;</code> címk
 </ol>
 <p><em><a href="www.youtube.com/embed/9CzCDziLsro">www.youtube.com/embed/9CzCDziLsro</a></em></p>
 <ol start="7">
-<li>
-<p>Kattintson a Frissítés gombra. <br>
-A Megjelenik a beágyazott videó.</p>
-</li>
+<li>Kattintson a Frissítés gombra. <br>
+A Megjelenik a beágyazott videó.</li>
+</ol>
+<p><img src="@source/demo/images/5-fejezet/112-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/112-2.png" alt="" loading="lazy"></p>
+<ol start="8">
 <li>
 <p>A beillesztési pont mozgatásához a záró dupla idézőjelek után kattintson, majd írjon be egy szóközt (nem látható).</p>
 </li>
@@ -692,6 +745,8 @@ A videó lejátszik.</p>
 <p><code v-pre>C)</code> A Hangerő gombra kattintva beállíthatja a hangerőt.</p>
 </li>
 </ol>
+<p><img src="@source/demo/images/5-fejezet/113-1.png" alt="" loading="lazy">
+<img src="@source/demo/images/5-fejezet/113-2.png" alt="" loading="lazy"></p>
 <div class="hint-container tip">
 <p class="hint-container-title">TIP</p>
 <p><strong>Hol találom a videó YouTube azonosítóját?</strong></p>

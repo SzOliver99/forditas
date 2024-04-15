@@ -17,6 +17,8 @@ Az ábrázolás elemként képet használ a hivatkozás megjelenítéséhez. Egy
 
 Amikor a mutatót egy link fölé mozgatod, az a szokásos nyílmutatóról a linkmutatóra (B) változik, egy felfelé mutató jobb kézzel, kinyújtott mutatóujjal, amely tőled távolabb van. Ez a mutatóváltás lehetővé teszi, hogy könnyen felismerje a linkeket bármilyen formában is jelennek meg.
 
+![](./images/5-fejezet/92-1.png)
+
 ### Azonosítsa a hivatkozás összetevőit
 A szöveghivatkozásnak az alábbi összetevői vannak, ahogyan azt a közeli ábrázolás mutatja.
 - Az anchor elem hozza létre a link-et. Az anchor elem egy nyitó `<a>` címkét és egy záró `</a>` címkét használ.
@@ -28,6 +30,8 @@ A szöveghivatkozásnak az alábbi összetevői vannak, ahogyan azt a közeli á
 - A link szövege a `<a>` címke és a `</a>` címke között jelenik meg.
 
 - A `</a>` címke zárja le az anchor-t.
+
+![](./images/5-fejezet/92-2.png)
 
 ### Abszolút linkek és relatív linkek közötti különbségek és kiválasztásuk közötti döntés
 Az HTML lehetővé teszi az abszolút linkek vagy relatív linkek használatát.
@@ -52,6 +56,8 @@ Ha a cél fájl egy másik mappában van, a relatív linknek elegendő informác
 href="images/logo14.png"
 ```
 
+## Hozzon létre egy linket egy weboldalra.
+
 Általában relatív linkeket szeretnél használni saját weboldalaid között, mert a linkek továbbra is működnek, amikor áthelyezed a webhelyedet egyik helyről a másikra. Például előfordulhat, hogy a weboldaladat helyi számítógépeden fejleszted ki, majd áthelyezed a webtárhelyedre, feltöltve a mappákat, így az oldalak relatív pozíciói változatlanok maradnak.
 
 Abszolút linkeket használj, amikor weboldalaidról külső webhelyekre mutatsz. Mivel a címek teljesek, nem érinti az, ha áthelyezed a webhelyet a helyi számítógépedről a webtárhelyedre.
@@ -60,7 +66,7 @@ Sok link más weboldalakra vezet, vagy ugyanarra a weboldalra, vagy egy másik w
 
 Ebben a szakaszban egy hivatkozást hozol létre az egyik weboldalon található szövegből egy másik weboldalra ugyanazon a webhelyen. A példát követve az úticél weboldalnak - az oldalnak, amelyre a link mutat - már léteznie kell; szükség esetén hozd létre az oldalt a példa követése előtt.
 
-Hozzon létre egy linket egy weboldalra.
+### Hozzon létre egy linket egy weboldalra.
 1. A Visual Studio Code-ban hozzon létre és mentsen el egy új fájlt, vagy nyissa meg azt a meglévő fájlt, amelyet szeretne használni.
 
 2. Nyissa meg a fájlt egy böngészőablakban, hogy láthassa a változtatások eredményeit.
@@ -81,6 +87,10 @@ A példa a meglévő szöveg kiválasztását és annak helyettesítését a lin
     <a href=""></a>
     ```
 
+![](./images/5-fejezet/94-1.png)
+![](./images/5-fejezet/94-2.png)
+![](./images/5-fejezet/94-3.png)
+
 6. Írja be a céloldal nevének az első betűjét. \
     `B)` Megjelenik egy olyan oldalak listája, amelyek ezzel a betűvel kezdődnek.
 
@@ -98,6 +108,10 @@ A példa a meglévő szöveg kiválasztását és annak helyettesítését a lin
     A példában a link H2 formázást kapott.
 
     A linkre kattintva megtekintheti a kapcsolt oldalt.
+
+![](./images/5-fejezet/95-1.png)
+![](./images/5-fejezet/95-2.png)
+![](./images/5-fejezet/95-3.png)
 
 ::: tip TIPP
 **Hogyan hozok létre egy linket egy másik weboldalra?**
@@ -134,6 +148,9 @@ Nyomj entert, hogy szükség esetén üres sorokat adj hozzá.
 
 6. Görgess le az oldal aljára.
 
+![](./images/5-fejezet/96.oldal%201.png)
+![](./images/5-fejezet/96.oldal%202.png)
+
 ::: note Megjegyzés:
 Az állóvonalat a fájl végére helyezheted, ha a Control+End -t nyomod Windows-on vagy Linux-on. Mac-en a ⌘+ gombot nyomd meg.
 :::
@@ -160,6 +177,10 @@ Az állóvonalat a fájl végére helyezheted, ha a Control+End -t nyomod Window
 15. Görgess le az oldal aljára.
 
 16. Kattints a hivatkozásra. Az oldal teteje jelenik meg.
+
+![](./images/5-fejezet/97.oldal%201.png)
+![](./images/5-fejezet/97.oldal%202.png)
+![](./images/5-fejezet/97.oldal%203.png)
 
 ::: tip TIPP
 **Hogyan hozhatok létre egy hivatkozást egy adott horgonyhoz egy másik weboldalon?**
@@ -195,6 +216,9 @@ Helyezd az állóvonalat a meglévő attribútumok közé, ne az attribútum bel
 
 7. Mozgasd az egérmutatót a hivatkozás fölé. \
     `B)` Megjelenik a képernyőtipp.
+
+![](./images/5-fejezet/98.oldal%201.png)
+![](./images/5-fejezet/98.oldal%202.png)
 
 ## Irányítsd át a böngészőt egy másik oldalra
 Néha szükséged lehet arra, hogy átirányítsd a látogatókat egyik weboldalról a másikra. Például, ha két domain-ed van, egy elsődleges és egy másodlagos, lehet, hogy át szeretnéd irányítani a látogatókat a másodlagos domainről az elsődleges domainre.
@@ -237,6 +261,9 @@ A letöltési fájlok elhelyezése egy külön könyvtárban, például egy let�
 
 5. Kezdd el gépelni az útvonalat a fájlhoz, amelyet letölti a hivatkozá.
 
+![](./images/5-fejezet/99.oldal%201.png)
+![](./images/5-fejezet/99.oldal%202.png)
+
 6. Ha az előugró menüben megjelenik a fájl, kattintson rá. Ha nem, fejezze be a név beírását.
 
 7. Nyomja meg a TAB-ot (nem látható). \
@@ -252,6 +279,9 @@ A beszúrási pont a nyitó `<a>` címke > jele után mozog.
 
 11. Adja ki a Mentés másként parancsot. Például a Chrome-ban kattintson a Link mentése másként lehetőségre. \
     Megnyílik a Mentés másként ablak, és megadhatja hogy hová mentse el a fájlt.
+
+![](./images/5-fejezet/100%201-kep.png)
+![](./images/5-fejezet/100%202-kep.png)
 
 ## Hozzon létre egy hivatkozást, amely e-mail üzenetet indít el
 A HTML lehetővé teszi egy hivatkozás létrehozását, amely elindítja az új e-mail üzenet létrehozását a látogató alapértelmezett levelezőalkalmazásában. Ez a funkció különféle célokra hasznos, például egyszerű módja annak, hogy a látogatók e-maileket küldhessenek a vállalatának vagy szervezetének. A link nem csak az üzenet e-mail címét, hanem tárgyát is megadhatja, ami különösen hasznos lehet olyan felhasználások esetén, mint például értékesítési kérdések vagy ügyfélszolgálati problémák.
@@ -288,6 +318,9 @@ E-mail üzenetet indító hivatkozás létrehozásához meg kell adnia a mailto 
 10. Kattints a link-re. \
 	Az alapértelmezett e-mail alkalmazásod megnyílik, és létrehoz egy üzenetet a linkben megadott részletekkel.
 
+![](./images/5-fejezet/101%201-kep.png)
+![](./images/5-fejezet/101%202-kep.png)
+
 ## Link létrehozása egy képből
 A szöveges hivatkozások a webes hivatkozások alapvető típusai, de a HTML lehetővé teszi hivatkozások létrehozását képekből és más objektumokból is. Hozzáadhat például olyan miniatűr képekre mutató hivatkozásokat, amelyek a teljes méretű képeket vagy a kapcsolódó információkat jelenítik meg. Mivel előfordulhat, hogy egyes látogatók nem látják a képeket, általában jó ötlet alternatív linket biztosítani, például szöveges linket és képlinket.
 
@@ -315,6 +348,9 @@ Külső oldalra mutató hivatkozás esetén írja be vagy illessze be a teljes U
 7. Kattintson a megfelelő oldalra. \
     `B)` Megjelenik az oldal neve.
 
+![](./images/5-fejezet/102%201-kep.png)
+![](./images/5-fejezet/102%202-kep.png)
+
 8. Húzza végig az egérmutatót a záró `</a>` tagen annak kijelöléséhez.
 
 9. Húzza a kijelölt taget az `<img>` tag végéhez. \
@@ -331,6 +367,9 @@ Külső oldalra mutató hivatkozás esetén írja be vagy illessze be a teljes U
     `F)` Megjelenik a hivatkozási cél.
 
     A hivatkozásra kattintva megjelenítheti a céloldalt.
+
+![](./images/5-fejezet/103%201-kep.png)
+![](./images/5-fejezet/103%202-kep.png)
 
 ::: tip Tipp
 **How can I make an image link more obvious to the visitor?**
@@ -365,6 +404,9 @@ Ez a rész egy egyszerű képtérkép létrehozását mutatja be, amelynek bal �
 7. Kattintson a megfelelő bejegyzésre. \
     A képfálj neve megjelenik.
 
+![](./images/5-fejezet/104-1.png)
+![](./images/5-fejezet/104-2.png)
+
 8. Kattints a idézőjelek közötti "alt=" mögötti dupla idézőjelre, és írd be a kép alternatív szövegét.
 
 9. Add hozzá a "width" attribútumot egy megfelelő értékkel.
@@ -395,6 +437,9 @@ Ez a rész egy egyszerű képtérkép létrehozását mutatja be, amelynek bal �
 
 16. Nyomd le a Tab billentyűt a beszúrási pont áthelyezéséhez a `</map>` címke elé, majd nyomd le az Enter billentyűt többször, hogy üres sorokat szúrj be a `</map>` címke elé.
 
+![](./images/5-fejezet/105-1.png)
+![](./images/5-fejezet/105-2.png)
+
 ::: tip TIPP
 **Hogyan készítsek elő egy képet képtérképként való használatra?**
 
@@ -424,6 +469,9 @@ Amikor képtérképet hoz létre, az area taggel definiálhatja az egyes kattint
 
 22. Nyomja le a billentyűt a beszúrási pont áthelyezéséhez a záró kettős idézőjelek mögött, majd írja be a title attribútumot és a hozzárendelni kívánt szöveget.
 
+![](./images/5-fejezet/106-1.png)
+![](./images/5-fejezet/106-2.png)
+
 23. Ismételje meg a 17-22. lépéseket a következő üres sorban a második terület létrehozásához. \
     Ezúttal adja meg a koordinátákat, a célt, az alternatív szöveget és a címet a második terület számára.
 
@@ -439,6 +487,9 @@ Amikor képtérképet hoz létre, az area taggel definiálhatja az egyes kattint
     `A)` A terület ScreenTip-je megjelenik.
 
     `B)` A terület cél URL-je megjelenik.
+
+![](./images/5-fejezet/107-1.png)
+![](./images/5-fejezet/107-2.png)
 
 ::: tip TIPP
 **Létrehozhatok átfedő területeket egy képtérképen?**
@@ -480,6 +531,10 @@ Háromféle hangfájlt használhat: MP3 fájlokat, WAV fájlokat és Ogg Vorbis 
 
 10. Kattintson a `</audio>` címke elé.
 
+![](./images/5-fejezet/108-1.png)
+![](./images/5-fejezet/108-2.png)
+![](./images/5-fejezet/108-3.png)
+
 11. Írja be a szöveget, amelyet a böngésző megjeleníthet, ha nem tudja lejátszani a hangfájlt - például, A böngésző nem tudja lejátszani ezt a hangfájlt.
 
 ::: note Megjegyzés:
@@ -493,6 +548,9 @@ A nyitójelek közé beírt címke közötti szöveg `<audio>` címke és a zár
     `A)` hang lejátszása megkezdődik.
 
     `C)` A hangerő beállításához kattintson a Hangerő gombra.
+
+![](./images/5-fejezet/109-1.png)
+![](./images/5-fejezet/109-2.png)
 
 ::: note Megjegyzés:
 A hangvezérlo más a
@@ -548,6 +606,9 @@ Azért hogy ne zavarja a felhasználókat, amikor a weboldal betöltik és ne ke
 
 11. Kattintson a `</video>` tag elé.
 
+![](./images/5-fejezet/110-1.png)
+![](./images/5-fejezet/110-2.png)
+
 12. Írja be a böngésző által megjelenítendő szöveget ha nem tudja a felhasznaló lejátszani a videofájlt -például: A böngésző nem tudja lejátszani ezt a videót videót.
 
 ::: note Megjegyzés:
@@ -563,6 +624,9 @@ A nyitójelek közé beírt szöveg `<video>` címke és a záró `</audio>` cí
     `C)` A hangerő  gombra kattintva beállíthatja a hangerő beállításához.
 
     `D)` Kattintson a Teljes képernyő a videó teljes méretűre történő kibontásához.
+
+![](./images/5-fejezet/111-1.png)
+![](./images/5-fejezet/111-2.png)
 
 ::: note Megjegyzés:
 A videóvezérlésnek más a megjelenése a különböző böngészőkben, de a ikonjai általában könnyen érthetőek.
@@ -608,6 +672,9 @@ használni kíván.
 7. Kattintson a Frissítés gombra. \
     A Megjelenik a beágyazott videó.
 
+![](./images/5-fejezet/112-1.png)
+![](./images/5-fejezet/112-2.png)
+
 8. A beillesztési pont mozgatásához a záró dupla idézőjelek után kattintson, majd írjon be egy szóközt (nem látható).
 
 9. Írja be a width= és a megfelelő szélességet pixelben, majd egy szóközzel a height= értéket, és egy megfelelő magasságot pixelben - például:
@@ -622,6 +689,9 @@ használni kíván.
     A videó lejátszik.
 
     `C)` A Hangerő gombra kattintva beállíthatja a hangerőt.
+
+![](./images/5-fejezet/113-1.png)
+![](./images/5-fejezet/113-2.png)
 
 ::: tip TIP
 **Hol találom a videó YouTube azonosítóját?**
