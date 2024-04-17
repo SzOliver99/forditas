@@ -309,7 +309,7 @@ Megjelenik a kibővítési lista.</li>
 <p>Mozgasd a beszúrási pontot a karakter utánra, majd írd be a záró <code v-pre>&lt;/sup&gt;</code> címkét.</p>
 </li>
 <li>
-<p>Kattints a Frissítés ( ) gombra.</p>
+<p>Kattints a Frissítés gombra.</p>
 </li>
 </ol>
 <p><code v-pre>A)</code> weboldal frissül.</p>
@@ -355,7 +355,7 @@ tulajdonsághoz. A font-size tulajdonsághoz rendeld hozzá ugyanazt az értéke
   <span class="token property">font-size</span><span class="token punctuation">:</span> 0.6em<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="9">
-<li>Kattints a Frissítés ( ) gombra. A weboldal frissül.</li>
+<li>Kattints a Frissítés gombra. A weboldal frissül.</li>
 </ol>
 <p><code v-pre>G)</code>Az új formázást a feljegyzések és az alsó indexek alkalmazzák.</p>
 <!--176. oldal--->

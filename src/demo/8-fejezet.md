@@ -332,7 +332,7 @@ Ezt a típusú mértéket néha mértékegységek nélkülinek nevezik, mivel ne
 
 8. Mozgasd a beszúrási pontot a karakter utánra, majd írd be a záró `</sup>` címkét.
 
-9. Kattints a Frissítés ( ) gombra.
+9. Kattints a Frissítés gombra.
 
 `A)` weboldal frissül.
 
@@ -375,7 +375,7 @@ sub {
 }
 ```
 
-9. Kattints a Frissítés ( ) gombra. A weboldal frissül.
+9. Kattints a Frissítés gombra. A weboldal frissül.
 
 `G)`Az új formázást a feljegyzések és az alsó indexek alkalmazzák.
 
