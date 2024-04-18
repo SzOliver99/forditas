@@ -1,14 +1,14 @@
 import { defineClientConfig } from "vuepress/client";
 
 
-import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "C:/Users/d3asyn/stuff/School/forditas/node_modules/vuepress-theme-hope/lib/bundle/export.js";
+import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "C:/Users/ccica/school/forditas/node_modules/vuepress-theme-hope/lib/bundle/export.js";
 
-import { defineCatalogInfoGetter } from "C:/Users/d3asyn/stuff/School/forditas/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
+import { defineCatalogInfoGetter } from "C:/Users/ccica/school/forditas/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
 import { h } from "vue"
-import { GlobalEncrypt, LocalEncrypt } from "C:/Users/d3asyn/stuff/School/forditas/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
-import "C:/Users/d3asyn/stuff/School/forditas/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
+import { GlobalEncrypt, LocalEncrypt } from "C:/Users/ccica/school/forditas/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
+import "C:/Users/ccica/school/forditas/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
 
-import "C:/Users/d3asyn/stuff/School/forditas/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
+import "C:/Users/ccica/school/forditas/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
 defineCatalogInfoGetter((meta) => {
   const title = meta.t;
